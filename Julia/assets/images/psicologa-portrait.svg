@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F4EE"/>
+      <stop offset="50%" stop-color="#ECE6DC"/>
+      <stop offset="100%" stop-color="#DFD8CC"/>
+    </linearGradient>
+    <linearGradient id="sageAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#728874"/>
+      <stop offset="100%" stop-color="#4E6250"/>
+    </linearGradient>
+    <linearGradient id="terracottaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4735B"/>
+      <stop offset="100%" stop-color="#A54F3B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base with Rounded Editorial Card -->
+  <rect width="800" height="1000" fill="url(#bgGrad)"/>
+
+  <!-- Organic Arch Frame -->
+  <path d="M100,280 C100,120 700,120 700,280 L700,950 C700,980 670,980 650,980 L150,980 C130,980 100,980 100,950 Z" fill="#FAF8F5" stroke="#DDD5C8" stroke-width="2"/>
+
+  <!-- Abstract Silhouette (Respectful, Professional & Non-Stock) -->
+  <g transform="translate(400, 480)">
+    <!-- Shoulders / Blouse in Sage -->
+    <path d="M-180,340 C-180,240 -120,200 0,200 C120,200 180,240 180,340 Z" fill="url(#sageAccent)" opacity="0.85"/>
+    <!-- Head / Silhouette in Warm Sand -->
+    <ellipse cx="0" cy="50" rx="85" ry="110" fill="#DFD6C9"/>
+    <!-- Gentle Hair Flow Hint -->
+    <path d="M-90,40 C-95,-70 95,-70 90,40 C80,120 70,160 50,170 C20,130 -20,130 -50,170 C-70,160 -80,120 -90,40 Z" fill="#998675" opacity="0.4"/>
+  </g>
+
+  <!-- Central Professional Notice Badge -->
+  <g transform="translate(400, 720)">
+    <!-- Badge Box -->
+    <rect x="-260" y="-80" width="520" height="160" rx="20" fill="#FFFFFF" filter="drop-shadow(0px 8px 24px rgba(35,41,36,0.08))" stroke="#E3DCD1" stroke-width="1.5"/>
+
+    <!-- Subtle Icon -->
+    <circle cx="0" cy="-40" r="22" fill="#F4EFEA"/>
+    <path d="M-8,-40 L-2,-34 L8,-46" fill="none" stroke="#C46851" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Explanatory Text -->
+    <text x="0" y="0" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="20" font-weight="600" fill="#232924">
+      Fotografía de la Psicóloga
+    </text>
+    <text x="0" y="28" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13" font-weight="600" fill="#5E7361" letter-spacing="1">
+      [ESPACIO RESERVADO PARA FOTOGRAFÍA REAL]
+    </text>
+    <text x="0" y="52" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" fill="#6A756C">
+      Imagen provisional para preservar la autenticidad y ética profesional
+    </text>
+  </g>
+
+  <!-- Editorial Corner Accents -->
+  <circle cx="160" cy="180" r="6" fill="#C46851"/>
+  <text x="180" y="185" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="600" fill="#758277" letter-spacing="1.5">
+    COLEGIADA Nº [Nº COLEGIADA]
+  </text>
+</svg>
