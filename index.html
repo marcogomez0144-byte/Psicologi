@@ -1,0 +1,1298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[NOMBRE] | Psicóloga Sanitaria en [CIUDAD] · Atención Presencial y Online</title>
+  
+  <!-- Metadatos SEO y Autoría Sanitaria -->
+  <meta name="description" content="Consulta de psicología de [NOMBRE] en [CIUDAD] y online. Acompañamiento cercano en ansiedad, límites, autoestima y cambios vitales. Colegiada Nº [Nº COLEGIADA]. Reserva tu primera sesión sin presiones.">
+  <meta name="keywords" content="psicologa [CIUDAD], terapia online, psicoterapia [ESPECIALIDADES], psicologo sanitario, ansiedad, autoestima, duelo, [NOMBRE]">
+  <meta name="author" content="[NOMBRE] - Psicóloga General Sanitaria">
+  
+  <!-- Open Graph / Redes Sociales -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="[NOMBRE] | Psicóloga Sanitaria en [CIUDAD]">
+  <meta property="og:description" content="Un espacio para comprender lo que sientes y empezar a cuidarte. Consulta presencial en [CIUDAD] y terapia online confidencial.">
+  <meta property="og:locale" content="es_ES">
+  
+  <!-- Tipografía Google Fonts Optimizada (Playfair Display & Plus Jakarta Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Hojas de Estilos Modulares -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/booking.css">
+
+  <!-- Datos Estructurados JSON-LD (Schema.org / MedicalBusiness / Psychologist) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Psychologist",
+    "name": "[NOMBRE]",
+    "description": "Psicóloga General Sanitaria especializada en [ESPECIALIDADES]. Atención psicológica basada en evidencia empírica en [CIUDAD] y modalidad online.",
+    "telephone": "+34-XXX-XX-XX-XX",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "[DIRECCIÓN DE LA CONSULTA]",
+      "addressLocality": "[CIUDAD]",
+      "addressRegion": "[PROVINCIA]",
+      "postalCode": "[CÓDIGO POSTAL]",
+      "addressCountry": "ES"
+    },
+    "medicalSpecialty": [
+      "ClinicalPsychology",
+      "Psychotherapy"
+    ],
+    "priceRange": "$$",
+    "availableService": [
+      {
+        "@type": "MedicalTherapy",
+        "name": "Psicoterapia Individual Presencial"
+      },
+      {
+        "@type": "MedicalTherapy",
+        "name": "Psicoterapia Individual Online"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Accesibilidad: Salto al Contenido Principal para Lectores de Pantalla y Teclado -->
+  <a href="#main-content" class="skip-to-content">Saltar al contenido principal</a>
+
+  <!-- Sprite de Iconos SVG Oculto -->
+  <div style="display: none;">
+    <!-- Inclusión referencial de sprite local -->
+  </div>
+
+  <!-- BARRA SUPERIOR: AVISO SANITARIO Y RECURSOS DE URGENCIA VITAL -->
+  <aside class="emergency-topbar" aria-label="Aviso de emergencias y recursos sanitarios gratuitos">
+    <div class="emergency-topbar-inner">
+      <div class="emergency-content">
+        <svg class="icon" aria-hidden="true" style="width: 14px; height: 14px;"><use href="assets/icons/icons.svg#icon-alert-triangle"></use></svg>
+        <span><strong>Aviso de salud:</strong> Esta web y sus formularios no son un servicio de urgencias. En situaciones de crisis vital inmediata o riesgo:</span>
+      </div>
+      <div class="emergency-badges">
+        <a href="tel:024" class="emergency-pill" title="Llamar gratis al 024 (Atención a la conducta suicida - 24 horas)">
+          <span>024</span> Línea conducta suicida (Gratis 24h)
+        </a>
+        <a href="tel:717003717" class="emergency-pill" title="Llamar al Teléfono de la Esperanza">
+          <span>717 003 717</span> Teléfono de la Esperanza
+        </a>
+        <a href="tel:112" class="emergency-pill" title="Llamar a Emergencias generales 112">
+          <span>112</span> Emergencias
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ENCABEZADO Y NAVEGACIÓN PRINCIPAL -->
+  <header class="site-header" role="banner">
+    <div class="container header-container">
+      <a href="#inicio" class="site-brand" aria-label="Ir al inicio - [NOMBRE] Psicóloga Sanitaria">
+        <span class="brand-name">[NOMBRE]</span>
+        <span class="brand-title">Psicología Sanitaria · [CIUDAD]</span>
+      </a>
+
+      <!-- Menú de Navegación de Escritorio -->
+      <nav class="site-nav" role="navigation" aria-label="Navegación principal">
+        <a href="#reconocerte" class="nav-link">¿Te reconoces?</a>
+        <a href="#especialidades" class="nav-link">Especialidades</a>
+        <a href="#sobre-mi" class="nav-link">Sobre mí</a>
+        <a href="#proceso" class="nav-link">Cómo trabajamos</a>
+        <a href="#tarifas" class="nav-link">Tarifas y Consulta</a>
+        <a href="#preguntas-frecuentes" class="nav-link">Dudas</a>
+        <a href="#recursos" class="nav-link">Recursos</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#reservar" class="btn btn-primary btn-sm">
+          <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-calendar"></use></svg>
+          <span>Pedir primera cita</span>
+        </a>
+        
+        <button class="mobile-nav-toggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="mobile-nav-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- SECCIÓN 1: INICIO / HERO -->
+    <section id="inicio" class="section hero-section" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Columna Izquierda: Mensaje Central y Confianza -->
+          <div class="hero-content">
+            <div class="hero-badges-wrapper">
+              <span class="hero-badge">
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-shield"></use></svg>
+                Colegiada Nº <span class="editable-hint">[Nº COLEGIADA]</span>
+              </span>
+              <span class="hero-badge">
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-map-pin"></use></svg>
+                Presencial en <span class="editable-hint">[CIUDAD]</span> y Online
+              </span>
+              <span class="hero-badge">
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-heart-hand"></use></svg>
+                Atención en <span class="editable-hint">[Español / Idiomas adicionales]</span>
+              </span>
+            </div>
+
+            <h1 id="hero-title" class="hero-title">
+              Un espacio para comprender lo que sientes y empezar a cuidarte.
+            </h1>
+
+            <p class="hero-text">
+              Soy <strong>[NOMBRE]</strong>, psicóloga <span class="editable-hint">[TITULACIÓN VERIFICADA: Graduada en Psicología y Máster en Psicología General Sanitaria]</span>. Te acompaño a explorar lo que estás viviendo y a trabajar en cambios que tengan sentido para ti, desde una atención cercana, respetuosa y adaptada a tus necesidades.
+            </p>
+
+            <div class="hero-ctas">
+              <a href="#reservar" class="btn btn-primary btn-lg">
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-calendar"></use></svg>
+                <span>Reservar una primera cita</span>
+              </a>
+              <a href="#sobre-mi" class="btn btn-secondary btn-lg">
+                <span>Conóceme</span>
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-arrow-right"></use></svg>
+              </a>
+            </div>
+
+            <div class="hero-reassurance">
+              <svg class="icon" aria-hidden="true" style="color: var(--color-sage);"><use href="assets/icons/icons.svg#icon-check"></use></svg>
+              <span>Sin compromisos de permanencia · Enfoque humano y fundamentado en la ciencia</span>
+            </div>
+          </div>
+
+          <!-- Columna Derecha: Contenedor Multimedia Hero con Vídeo Ambiental y Pausa -->
+          <div class="hero-media-wrapper">
+            <div class="hero-media-card" aria-label="Ambiente sereno y luminoso de la consulta de psicología">
+              <div class="ambient-video-wrapper">
+                <!-- Vídeo ambiental optimizado y en bucle sin sonido automático -->
+                <video id="ambientVideo" class="ambient-video" autoplay loop muted playsinline poster="assets/images/consultation-hero.svg" aria-label="Vídeo ambiental sutil mostrando la calma y luz natural del espacio de consulta">
+                  <source src="assets/videos/consultation-ambient.mp4" type="video/mp4">
+                  Tu navegador no soporta la reproducción de este vídeo ambiental.
+                </video>
+                <!-- Imagen estática de alta calidad como respaldo y para movimiento reducido -->
+                <img id="ambientFallbackImg" class="ambient-fallback-img" src="assets/images/consultation-hero.svg" alt="Espacio acogedor y luminoso de la consulta con sillón de lectura, plantas naturales y luz suave" style="display: none;">
+                <div class="ambient-video-overlay" aria-hidden="true"></div>
+              </div>
+
+              <!-- Controles accesibles de reproducción ambiental -->
+              <div class="ambient-controls">
+                <button id="ambientToggleBtn" class="ambient-toggle-btn" type="button" aria-label="Pausar vídeo ambiental de fondo">
+                  <span class="icon-state"><svg class="icon" aria-hidden="true" style="width: 12px; height: 12px;"><use href="assets/icons/icons.svg#icon-pause"></use></svg></span>
+                  <span class="btn-label">Pausar fondo</span>
+                </button>
+                <span class="ambient-caption-tag">Consulta luminosa y segura</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FRASE INSPIRADORA 1 -->
+    <div class="quote-banner">
+      <div class="container">
+        <div class="quote-box">
+          <p>“Un espacio para hablar de lo que te pasa, a tu ritmo.”</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECCIÓN 2: ¿QUIZÁ TE RECONOCES EN ESTO? (VALIDACIÓN EMOCIONAL SIN DIAGNÓSTICO) -->
+    <section id="reconocerte" class="section section-alt" aria-labelledby="reconocerte-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Punto de Partida</span>
+          <h2 id="reconocerte-title">Quizá te reconoces en esto</h2>
+          <p class="section-subtitle">A veces no sabemos nombrar con exactitud lo que nos ocurre, pero sí sentimos que algo nos pesa o nos sobrepasa en el día a día.</p>
+        </div>
+
+        <div class="recognize-grid">
+          <!-- Tarjeta 1: Sobrecarga mental y preocupación -->
+          <article class="recognize-card">
+            <div class="card-icon-wrapper">
+              <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-clock"></use></svg>
+            </div>
+            <h3>Preocupación constante y sobrecarga mental</h3>
+            <p>Sientes que tu cabeza no descansa, anticipando problemas futuros o revisando mentalmente cada detalle. Una sensación continua de alerta interna y tensión en el cuerpo que dificulta desconectar y descansar.</p>
+          </article>
+
+          <!-- Tarjeta 2: Límites y complacencia -->
+          <article class="recognize-card">
+            <div class="card-icon-wrapper card-icon-terracotta">
+              <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-shield"></use></svg>
+            </div>
+            <h3>Dificultad para poner límites y decir “no”</h3>
+            <p>Tiendes a priorizar el bienestar de los demás por encima de tus propias necesidades. Decir no te genera culpa o miedo al conflicto, lo que poco a poco te lleva al agotamiento emocional y al resentimiento.</p>
+          </article>
+
+          <!-- Tarjeta 3: Momentos de cambio o crisis -->
+          <article class="recognize-card">
+            <div class="card-icon-wrapper">
+              <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-heart-hand"></use></svg>
+            </div>
+            <h3>Transición vital, pérdidas o cambios inesperados</h3>
+            <p>Una ruptura sentimental, un cambio laboral, una pérdida significativa o simplemente la sensación de que la etapa vital en la que estabas ya no encaja contigo y necesitas redescubrir quién eres ahora.</p>
+          </article>
+
+          <!-- Tarjeta 4: Exigencia y autocrítica -->
+          <article class="recognize-card">
+            <div class="card-icon-wrapper card-icon-terracotta">
+              <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-quote"></use></svg>
+            </div>
+            <h3>Exigencia interna y sensación de insuficiencia</h3>
+            <p>Una voz autocrítica que te recuerda constantemente lo que podrías haber hecho mejor. La sensación de que nunca es suficiente y la dificultad para reconocer tus logros y tratarte con amabilidad.</p>
+          </article>
+        </div>
+
+        <!-- Aviso ético explícito: no es un diagnóstico -->
+        <div class="non-diagnostic-notice">
+          <svg class="icon" aria-hidden="true" style="color: var(--color-sage);"><use href="assets/icons/icons.svg#icon-shield"></use></svg>
+          <p>
+            <strong>Aclaración importante:</strong> Estas situaciones describen vivencias humanas frecuentes que atendemos en consulta; en ningún caso constituyen una etiqueta médica ni un diagnóstico psicológico.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FRASE INSPIRADORA 2 -->
+    <div class="quote-banner">
+      <div class="container">
+        <div class="quote-box">
+          <p>“No necesitas tenerlo todo claro para empezar.”</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECCIÓN 3: CÓMO PUEDO ACOMPAÑARTE (ESPECIALIDADES VERIFICADAS) -->
+    <section id="especialidades" class="section" aria-labelledby="especialidades-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag section-tag-terracotta">Áreas de Especialización</span>
+          <h2 id="especialidades-title">Cómo puedo acompañarte</h2>
+          <p class="section-subtitle">Trabajo desde un marco integrativo basado en la evidencia empírica. Cada proceso se adapta a tu historia y a tus ritmos, sin fórmulas rígidas ni promesas vacías.</p>
+        </div>
+
+        <div class="specialties-grid">
+          
+          <!-- Especialidad 1: Ansiedad y Regulación del Estrés -->
+          <article class="specialty-card">
+            <span class="specialty-number">01</span>
+            <h3>Ansiedad, Estrés y Regulación Somática</h3>
+            <p>La ansiedad no es un enemigo que haya que erradicar a cualquier precio, sino una señal de alarma de nuestro sistema nervioso que ha aprendido a sobreactivarse.</p>
+            
+            <ul class="specialty-points">
+              <li class="specialty-point">
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-check"></use></svg>
+                <div><strong>Qué motiva la consulta:</strong> Palpitaciones, rumiación mental incontrolable, insomnio, sensación de ahogo o miedo al propio miedo.</div>
+              </li>
+              <li class="specialty-point">
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-check"></use></svg>
+                <div><strong>Cómo lo abordamos:</strong> Entendemos la función de tu ansiedad sin juzgarla, aprendiendo a regular el cuerpo y a desarmar la espiral de pensamientos catastrofistas.</div>
+              </li>
+              <li class="specialty-point">
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-check"></use></svg>
+                <div><strong>Qué trabajamos:</strong> Recursos prácticos de defusión cognitiva, anclaje somático y tolerancia al malestar para recuperar tu serenidad cotidiana.</div>
+              </li>
+            </ul>
+
+            <a href="#reservar" class="btn btn-secondary btn-sm" style="margin-top: auto; align-self: flex-start;">Consultar sobre ansiedad</a>
+          </article>
+
+          <!-- Especialidad 2: Autoestima y Relación Contigo Misma -->
+          <article class="specialty-card">
+            <span class="specialty-number">02</span>
+            <h3>Autoestima, Autocrítica y Vínculo Propio</h3>
+            <p>La verdadera autoestima no consiste en repetir afirmaciones positivas frente al espejo, sino en construir una relación honesta, compasiva y sólida con quien eres hoy.</p>
+            
+            <ul class="specialty-points">
+              <li class="specialty-point">
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-check"></use></svg>
+                <div><strong>Qué motiva la consulta:</strong> Dependencia excesiva de la validación externa, síndrome del impostor, inseguridad corporal o sentimiento de no merecer.</div>
+              </li>
+              <li class="specialty-point">
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-check"></use></svg>
+                <div><strong>Cómo lo abordamos:</strong> Exploramos el origen de los mensajes que interiorizaste y cultivamos una voz interna empática que te apoye en lugar de boicotearte.</div>
+              </li>
+              <li class="specialty-point">
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-check"></use></svg>
+                <div><strong>Qué trabajamos:</strong> Identificar tus valores genuinos, aceptar tu vulnerabilidad y fortalecer la confianza en tus decisiones personales.</div>
+              </li>
+            </ul>
+
+            <a href="#reservar" class="btn btn-secondary btn-sm" style="margin-top: auto; align-self: flex-start;">Consultar sobre autoestima</a>
+          </article>
+
+          <!-- Especialidad 3: Límites y Relaciones -->
+          <article class="specialty-card">
+            <span class="specialty-number">03</span>
+            <h3>Límites, Asertividad y Dificultades Relacionales</h3>
+            <p>Las relaciones son el espejo de cómo nos cuidamos y cómo aprendimos a vincularnos con los demás desde nuestras primeras experiencias de apego.</p>
+            
+            <ul class="specialty-points">
+              <li class="specialty-point">
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-check"></use></svg>
+                <div><strong>Qué motiva la consulta:</strong> Conflictos de pareja repetitivos, dificultad para comunicar desacuerdos, relaciones desiguales o miedo constante al abandono.</div>
+              </li>
+              <li class="specialty-point">
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-check"></use></svg>
+                <div><strong>Cómo lo abordamos:</strong> Revisamos tus patrones vinculares y de apego para comprender qué buscas en los demás y cómo comunicas tus límites.</div>
+              </li>
+              <li class="specialty-point">
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-check"></use></svg>
+                <div><strong>Qué trabajamos:</strong> Expresar tus necesidades con asertividad y claridad, sin agresividad ni culpa, creando relaciones equilibradas y respetuosas.</div>
+              </li>
+            </ul>
+
+            <a href="#reservar" class="btn btn-secondary btn-sm" style="margin-top: auto; align-self: flex-start;">Consultar sobre relaciones</a>
+          </article>
+
+          <!-- Especialidad 4: Duelo y Transiciones Vitales -->
+          <article class="specialty-card">
+            <span class="specialty-number">04</span>
+            <h3>Duelo, Pérdidas y Crisis de Cambio Vital</h3>
+            <p>Afrontar un cambio significativo duele porque importa. Elaborar un duelo no es olvidar lo vivido, sino aprender a colocarlo en un lugar donde no duela permanentemente.</p>
+            
+            <ul class="specialty-points">
+              <li class="specialty-point">
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-check"></use></svg>
+                <div><strong>Qué motiva la consulta:</strong> Fallecimiento de personas queridas, rupturas de pareja, diagnósticos de salud o sensación de desorientación vital.</div>
+              </li>
+              <li class="specialty-point">
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-check"></use></svg>
+                <div><strong>Cómo lo abordamos:</strong> Creamos un refugio seguro donde poder desahogarte y transitar cada emoción sin juicios ni exigencias de superación rápida.</div>
+              </li>
+              <li class="specialty-point">
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-check"></use></svg>
+                <div><strong>Qué trabajamos:</strong> Respetar tus tiempos de asimilación, reconstruir tu rutina y encontrar nuevos anclajes de sentido en tu presente.</div>
+              </li>
+            </ul>
+
+            <a href="#reservar" class="btn btn-secondary btn-sm" style="margin-top: auto; align-self: flex-start;">Consultar sobre duelo</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 4: SOBRE MÍ Y VÍDEO DE PRESENTACIÓN -->
+    <section id="sobre-mi" class="section section-alt" aria-labelledby="sobre-mi-title">
+      <div class="container">
+        <div class="about-grid">
+          
+          <!-- Columna Izquierda: Fotografía de la Profesional y Vídeo Trigger -->
+          <div class="about-media-col">
+            <div class="about-photo-card">
+              <!-- Marcador de posición claramente identificado para la foto auténtica -->
+              <img src="assets/images/psicologa-portrait.svg" alt="Espacio reservado para la fotografía profesional de la psicóloga [NOMBRE] en su consulta" class="about-photo">
+            </div>
+
+            <!-- Disparador accesible para ver el vídeo de presentación -->
+            <div class="about-video-trigger">
+              <div style="display: flex; align-items: center; gap: 0.75rem;">
+                <svg class="icon" aria-hidden="true" style="color: var(--color-terracotta);"><use href="assets/icons/icons.svg#icon-video"></use></svg>
+                <div>
+                  <strong style="font-size: var(--text-sm); display: block; color: var(--color-text-main);">Vídeo de presentación</strong>
+                  <span style="font-size: var(--text-xs); color: var(--color-text-muted);">2 min · Con subtítulos · Reproducción voluntaria</span>
+                </div>
+              </div>
+              <button id="openPresentationVideoBtn" type="button" class="btn btn-primary btn-sm" aria-haspopup="dialog">
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-play"></use></svg>
+                <span>Ver vídeo</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Columna Derecha: Presentación Humana, Credenciales y Filosofía -->
+          <div class="about-bio-col">
+            <span class="section-tag">Conóceme</span>
+            <h2 id="sobre-mi-title">Cercanía humana y rigor científico en cada sesión</h2>
+            
+            <p class="lead">
+              Hola, soy <strong>[NOMBRE]</strong>. Concibo la psicoterapia no como un manual de instrucciones estándar, sino como una alianza de colaboración genuina, donde tú eres la persona experta en tu propia vida y yo pongo a tu servicio mis conocimientos clínicos.
+            </p>
+
+            <p>
+              En la consulta no encontrarás miradas condescendientes ni juicios de valor. Mi compromiso es ofrecerte un espacio de serenidad, escucha activa y absoluta confidencialidad, donde puedas depositar lo que te preocupa con la certeza de sentirte escuchada y acompañada.
+            </p>
+
+            <!-- Credenciales Verificadas y Número de Colegiada -->
+            <div class="about-credentials">
+              <div class="credential-item">
+                <h4>Habilitación Sanitaria</h4>
+                <p><span class="editable-hint">[Licenciada / Graduada en Psicología · Máster en Psicología General Sanitaria]</span></p>
+              </div>
+
+              <div class="credential-item">
+                <h4>Colegiación Oficial</h4>
+                <p>Colegiada Nº <span class="editable-hint">[Nº COLEGIADA]</span> en el Colegio Oficial de la Psicología de <span class="editable-hint">[CIUDAD/COMUNIDAD]</span></p>
+              </div>
+
+              <div class="credential-item">
+                <h4>Enfoque Terapéutico</h4>
+                <p>Terapias de Tercera Generación (ACT, CFT y Terapia Cognitivo-Conductual Basada en Apego)</p>
+              </div>
+
+              <div class="credential-item">
+                <h4>Ejercicio Ético</h4>
+                <p>Adhesión plena al Código Deontológico y formación continuada basada en evidencia</p>
+              </div>
+            </div>
+
+            <p style="font-size: var(--text-sm); color: var(--color-text-subtle);">
+              Creo firmemente que la terapia es un proceso vivo: no se trata de encajarte en una teoría, sino de adaptar la psicología a tu realidad y a lo que tú necesitas en este momento.
+            </p>
+
+            <a href="#proceso" class="btn btn-secondary btn-sm" style="margin-top: 0.5rem;">
+              <span>Descubre cómo trabajaremos juntos</span>
+              <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FRASE INSPIRADORA 3 -->
+    <div class="quote-banner">
+      <div class="container">
+        <div class="quote-box">
+          <p>“Podemos explorar juntas o juntos qué necesitas en este momento.”</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECCIÓN 5: CÓMO TRABAJAREMOS (EL PROCESO TERAPÉUTICO) -->
+    <section id="proceso" class="section" aria-labelledby="proceso-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">El Camino Terapéutico</span>
+          <h2 id="proceso-title">Cómo trabajaremos</h2>
+          <p class="section-subtitle">Un proceso estructurado, transparente y libre de incertidumbre para que sepas qué esperar en cada etapa.</p>
+        </div>
+
+        <div class="process-steps">
+          <!-- Paso 1 -->
+          <article class="process-card">
+            <span class="step-badge">1</span>
+            <h3>Eliges una cita o pides información</h3>
+            <p>Seleccionas la modalidad que prefieras (online o presencial en <span class="editable-hint">[CIUDAD]</span>) y la hora que mejor se adapte a tu agenda a través del formulario o por WhatsApp de gestión.</p>
+          </article>
+
+          <!-- Paso 2 -->
+          <article class="process-card">
+            <span class="step-badge">2</span>
+            <h3>Primera sesión de acogida</h3>
+            <p>Nos conocemos con calma. Me cuentas qué te ha animado a consultar, exploramos qué estás experimentando y resolvemos todas tus dudas sobre la forma de trabajar.</p>
+          </article>
+
+          <!-- Paso 3 -->
+          <article class="process-card">
+            <span class="step-badge">3</span>
+            <h3>Acordamos objetivos y ritmo</h3>
+            <p>Definimos de mutuo acuerdo qué metas tienen sentido para ti. No hay un número prefijado de sesiones: ajustamos la frecuencia según tus avances y disponibilidad.</p>
+          </article>
+
+          <!-- Paso 4 -->
+          <article class="process-card">
+            <span class="step-badge">4</span>
+            <h3>Revisión y consolidación</h3>
+            <p>Hacemos paradas periódicas para evaluar cómo te sientes y consolidar los cambios. Conforme ganas autonomía, espaciamos las sesiones hacia el cierre del proceso.</p>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: var(--space-xl);">
+          <p style="font-size: var(--text-sm); color: var(--color-text-subtle); max-width: 680px; margin-inline: auto;">
+            Cada persona tiene sus propios tiempos. La terapia no es una carrera lineal; es un espacio seguro donde avanzar, detenerse a reflexionar y retomar con calma.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 6: TU PRIMERA SESIÓN (DESPEJANDO DUDAS) -->
+    <section class="section section-alt" aria-labelledby="primera-sesion-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag section-tag-terracotta">Tu Encuentro Inicial</span>
+          <h2 id="primera-sesion-title">Tu primera sesión: qué puedes esperar</h2>
+          <p class="section-subtitle">Es natural sentir cierta inquietud antes del primer contacto. Queremos que llegues con total tranquilidad.</p>
+        </div>
+
+        <div class="first-session-grid">
+          <!-- Tarjeta 1 -->
+          <div class="session-faq-card">
+            <h3>
+              <svg class="icon" aria-hidden="true" style="color: var(--color-sage);"><use href="assets/icons/icons.svg#icon-heart-hand"></use></svg>
+              ¿Qué ocurre en la sesión?
+            </h3>
+            <p>Dedicamos el tiempo a escucharte sin prisas. No te someteré a un interrogatorio incómodo; simplemente hablaremos sobre lo que te ocurre, qué sientes y qué te gustaría conseguir.</p>
+            <p>Si no sabes por dónde empezar o te cuesta poner en palabras tu malestar, no te preocupes: te guiaré con preguntas suaves para que te sientas cómoda en todo momento.</p>
+          </div>
+
+          <!-- Tarjeta 2 -->
+          <div class="session-faq-card">
+            <h3>
+              <svg class="icon" aria-hidden="true" style="color: var(--color-sage);"><use href="assets/icons/icons.svg#icon-clock"></use></svg>
+              Duración y preparación
+            </h3>
+            <p>La sesión dura aproximadamente <strong>50 - 60 minutos</strong>. No necesitas preparar nada especial de antemano ni traer un discurso redactado.</p>
+            <p>Solo necesitas un espacio tranquilo si es online, o llegar con unos minutos de antelación si nos vemos en la consulta de <span class="editable-hint">[CIUDAD]</span>.</p>
+          </div>
+
+          <!-- Tarjeta 3 -->
+          <div class="session-faq-card">
+            <h3>
+              <svg class="icon" aria-hidden="true" style="color: var(--color-sage);"><use href="assets/icons/icons.svg#icon-shield"></use></svg>
+              Libertad y confianza
+            </h3>
+            <p>El primer encuentro sirve también para que tú valores si te sientes a gusto conmigo y si encajo con lo que estás buscando.</p>
+            <p>La alianza terapéutica requiere conexión y sintonía humana. Tienes total libertad para decidir si deseas continuar o no tras este primer encuentro.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 7: MODALIDADES, TARIFAS Y CONSULTA TRANSPARENTES -->
+    <section id="tarifas" class="section" aria-labelledby="tarifas-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Transparencia Económica</span>
+          <h2 id="tarifas-title">Modalidades y tarifas</h2>
+          <p class="section-subtitle">Tarifas claras, sin costes ocultos ni paquetes forzados. Puedes elegir la modalidad que mejor se adapte a tu estilo de vida.</p>
+        </div>
+
+        <div class="pricing-grid">
+          
+          <!-- Tarjeta Modalidad Online -->
+          <div class="pricing-card">
+            <span class="pricing-badge">Máxima comodidad</span>
+            <h3>Terapia Online</h3>
+            <p>Atención psicológica por videoconsulta confidencial y segura desde el lugar donde te encuentres.</p>
+
+            <div class="pricing-price">
+              <span class="price-amount"><span class="editable-hint">[65 €]</span></span>
+              <span class="price-unit">/ sesión individual (55-60 min)</span>
+            </div>
+
+            <ul class="pricing-features">
+              <li>
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-video"></use></svg>
+                <span>Plataforma sanitaria segura cifrada de extremo a extremo (sin instalar programas complejos).</span>
+              </li>
+              <li>
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-check"></use></svg>
+                <span>Sin tiempos ni costes de desplazamiento.</span>
+              </li>
+              <li>
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-check"></use></svg>
+                <span><strong>Requisitos:</strong> Dispositivo con cámara, conexión estable y un lugar privado donde no te interrumpan.</span>
+              </li>
+              <li>
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-check"></use></svg>
+                <span>Idiomas: <span class="editable-hint">[Español / Catalán / Inglés]</span></span>
+              </li>
+            </ul>
+
+            <a href="#reservar" class="btn btn-primary" style="margin-top: auto;">Reservar sesión online</a>
+          </div>
+
+          <!-- Tarjeta Modalidad Presencial -->
+          <div class="pricing-card featured">
+            <span class="pricing-badge" style="background-color: var(--color-terracotta-soft); color: var(--color-terracotta);">Espacio físico</span>
+            <h3>Consulta Presencial en [CIUDAD]</h3>
+            <p>Un entorno cálido, luminoso y protegido en el centro de <span class="editable-hint">[CIUDAD]</span> para trabajar cara a cara.</p>
+
+            <div class="pricing-price">
+              <span class="price-amount"><span class="editable-hint">[70 €]</span></span>
+              <span class="price-unit">/ sesión individual (55-60 min)</span>
+            </div>
+
+            <ul class="pricing-features">
+              <li>
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-map-pin"></use></svg>
+                <span><strong>Dirección:</strong> <span class="editable-hint">[Calle Ejemplo 12, Planta 2ª, CIUDAD]</span></span>
+              </li>
+              <li>
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-accessibility"></use></svg>
+                <span><strong>Accesibilidad:</strong> Edificio accesible con rampa y ascensor para personas con movilidad reducida.</span>
+              </li>
+              <li>
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-check"></use></svg>
+                <span><strong>Transporte cercano:</strong> Metro <span class="editable-hint">[Estación más cercana]</span> y líneas de autobús <span class="editable-hint">[Líneas X, Y]</span>.</span>
+              </li>
+              <li>
+                <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-check"></use></svg>
+                <span>Edades atendidas: <span class="editable-hint">[Adultos y jóvenes a partir de 18 años / Consultar adolescentes]</span></span>
+              </li>
+            </ul>
+
+            <a href="#reservar" class="btn btn-primary" style="margin-top: auto;">Reservar sesión presencial</a>
+          </div>
+
+        </div>
+
+        <!-- Condiciones de Pago y Cancelación Transparentes -->
+        <div style="background-color: var(--color-bg-sand-light); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: 1.75rem; margin-top: var(--space-xl); display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+          <div>
+            <h4 style="font-size: var(--text-base); margin-bottom: 0.4rem; color: var(--color-sage-dark);">Métodos de pago admitidos</h4>
+            <p style="font-size: var(--text-sm); margin-bottom: 0; color: var(--color-text-muted);">
+              Bizum profesional, transferencia bancaria o tarjeta tras cada sesión. Se emite factura oficial con validez fiscal y sanitaria.
+            </p>
+          </div>
+
+          <div>
+            <h4 style="font-size: var(--text-base); margin-bottom: 0.4rem; color: var(--color-sage-dark);">Política de cancelación con respeto</h4>
+            <p style="font-size: var(--text-sm); margin-bottom: 0; color: var(--color-text-muted);">
+              Puedes cancelar o cambiar tu cita sin ningún coste avisando con al menos <strong>24 horas de antelación</strong>, para que otra persona pueda ocupar ese hueco.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 8: PREGUNTAS FRECUENTES (FAQ INTERACTIVO) -->
+    <section id="preguntas-frecuentes" class="section section-alt" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Claridad y Dudas</span>
+          <h2 id="faq-title">Preguntas frecuentes</h2>
+          <p class="section-subtitle">Respuestas directas a las inquietudes más habituales antes de comenzar un proceso de terapia.</p>
+        </div>
+
+        <div class="faq-list">
+          
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>¿Cómo sé si es el momento adecuado para acudir a terapia?</span>
+              <svg class="faq-toggle-icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-chevron-down"></use></svg>
+            </button>
+            <div class="faq-answer">
+              <p>No es necesario estar en una situación límite ni experimentar una crisis devastadora para consultar. Si sientes que la preocupación te desgasta, que te cuesta gestionar tus emociones, que tus relaciones te generan sufrimiento o simplemente deseas entenderte mejor, la terapia puede ser un recurso valioso para ti.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>¿Con qué frecuencia nos veremos y cuánto durará el proceso?</span>
+              <svg class="faq-toggle-icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-chevron-down"></use></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Al inicio suele recomendarse una frecuencia semanal o quincenal para crear un espacio de trabajo sólido. Conforme vayas notando avances y sintiéndote con más recursos, espaciaremos las sesiones a tres semanas o mensuales. La duración total depende de tus objetivos personales y necesidades; revisaremos el proceso periódicamente juntos.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>¿Qué garantías tengo sobre el secreto profesional y la confidencialidad?</span>
+              <svg class="faq-toggle-icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-chevron-down"></use></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Todo lo que hables en consulta está estrictamente protegido por el <strong>secreto profesional</strong> y el Código Deontológico de la Psicología. Tus datos se tratan conforme al RGPD y la Ley de Autonomía del Paciente. Los únicos límites que contempla la ley son situaciones de riesgo inminente grave para la propia vida del paciente o de terceras personas, o por mandato judicial legal expreso.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>¿La terapia psicológica online es tan efectiva como la presencial?</span>
+              <svg class="faq-toggle-icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-chevron-down"></use></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Sí. Numerosos estudios científicos confirman que la psicoterapia online ofrece la misma eficacia clínica y vinculación terapéutica que la presencial para problemáticas como ansiedad, autoestima, duelo o dificultades relacionales, con la ventaja añadida de evitar desplazamientos.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>¿En qué se diferencia una psicóloga sanitaria de una psiquiatra o un coach?</span>
+              <svg class="faq-toggle-icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-chevron-down"></use></svg>
+            </button>
+            <div class="faq-answer">
+              <p>La <strong>psicóloga sanitaria</strong> cuenta con titulación universitaria oficial de grado y máster sanitario, colegiación regulada y trabaja sobre los procesos emocionales, cognitivos y conductuales a través de la psicoterapia. La <strong>psiquiatra</strong> es médico especialista y puede prescribir psicofármacos cuando es necesario (a menudo colaboramos coordinadamente). El <em>coaching</em> no es una profesión sanitaria ni está habilitado para tratar problemas de salud mental o sufrimiento psicológico.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>¿Qué ocurre si tengo que cancelar o cambiar una cita?</span>
+              <svg class="faq-toggle-icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-chevron-down"></use></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Entiendo que surgen imprevistos. Puedes modificar o cancelar tu cita sin coste avisando con al menos 24 horas de margen. Las cancelaciones con menor antelación o no comparecencias conllevan el abono de la sesión, ya que ese espacio temporal queda reservado en exclusiva para ti y no puede ofrecerse a otra persona.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 9: RECURSOS Y DIVULGACIÓN ÉTICA -->
+    <section id="recursos" class="section" aria-labelledby="recursos-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag section-tag-terracotta">Lecturas y Psicoeducación</span>
+          <h2 id="recursos-title">Recursos para comprenderte mejor</h2>
+          <p class="section-subtitle">Artículos divulgativos orientados a brindarte perspectiva y herramientas prácticas para el día a día.</p>
+        </div>
+
+        <div class="articles-grid">
+          
+          <article class="article-card">
+            <span class="article-meta">Ansiedad y calma</span>
+            <h3>Qué le pasa a tu cuerpo cuando experimentas ansiedad</h3>
+            <p>Comprender las reacciones fisiológicas del sistema nervioso ayuda a desarmar la espiral de alarma y a responder con calma en lugar de luchar contra el síntoma.</p>
+            <span style="font-size: var(--text-xs); color: var(--color-sage-dark); font-weight: 600; margin-top: auto;">Lectura de 4 min · Psicoeducación</span>
+          </article>
+
+          <article class="article-card">
+            <span class="article-meta">Límites y relaciones</span>
+            <h3>Aprender a decir “no” sin sentirte una mala persona</h3>
+            <p>Poner límites no es levantar muros ni agredir; es definir con amabilidad y firmeza dónde terminas tú y dónde empiezan las expectativas de los demás.</p>
+            <span style="font-size: var(--text-xs); color: var(--color-sage-dark); font-weight: 600; margin-top: auto;">Lectura de 5 min · Asertividad</span>
+          </article>
+
+          <article class="article-card">
+            <span class="article-meta">Autocompasión</span>
+            <h3>Por qué la autocrítica constante no te ayuda a mejorar</h3>
+            <p>Descubre por qué tratarnos con dureza activa el circuito de amenaza y cómo la compasión es el motor más eficaz para un cambio real y duradero.</p>
+            <span style="font-size: var(--text-xs); color: var(--color-sage-dark); font-weight: 600; margin-top: auto;">Lectura de 4 min · Crecimiento personal</span>
+          </article>
+
+        </div>
+
+        <div class="non-diagnostic-notice" style="margin-top: var(--space-xl);">
+          <svg class="icon" aria-hidden="true" style="color: var(--color-sage);"><use href="assets/icons/icons.svg#icon-shield"></use></svg>
+          <p>
+            <strong>Nota de rigor sanitario:</strong> Los contenidos de divulgación tienen un propósito exclusivamente orientativo e informativo y no sustituyen en ningún caso una evaluación o terapia psicológica individualizada.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FRASE INSPIRADORA 4 -->
+    <div class="quote-banner">
+      <div class="container">
+        <div class="quote-box" style="border-left-color: var(--color-terracotta);">
+          <p style="color: var(--color-terracotta);">“Pedir ayuda también puede ser una forma de cuidarte.”</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECCIÓN 10: MOTOR INTERACTIVO DE RESERVA DE CITAS -->
+    <section id="reservar" class="section booking-section" aria-labelledby="reservar-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag section-tag-terracotta">Reserva Cómoda y Sin Presión</span>
+          <h2 id="reservar-title">Reserva tu primera sesión</h2>
+          <p class="section-subtitle">Elige en pocos pasos la modalidad, fecha y hora que mejor te vengan. Sin pagos por adelantado y con confirmación inmediata.</p>
+        </div>
+
+        <div id="bookingWizard" class="booking-container">
+          
+          <!-- Indicador de Progreso en 4 Pasos -->
+          <div class="booking-progress-bar" role="tablist" aria-label="Pasos de la reserva">
+            <div class="booking-step-tab active" data-step="1">
+              <span class="step-number">1</span>
+              <span>Modalidad</span>
+            </div>
+            <div class="booking-step-tab" data-step="2">
+              <span class="step-number">2</span>
+              <span>Fecha y hora</span>
+            </div>
+            <div class="booking-step-tab" data-step="3">
+              <span class="step-number">3</span>
+              <span>Tus datos</span>
+            </div>
+            <div class="booking-step-tab" data-step="4">
+              <span class="step-number">4</span>
+              <span>Confirmación</span>
+            </div>
+          </div>
+
+          <div class="booking-content-area">
+            
+            <!-- PASO 1: Modalidad y Tipo de Sesión -->
+            <div id="bookingStep1" class="booking-step-panel active">
+              <h3 class="step-panel-title">1. ¿Qué tipo de sesión necesitas?</h3>
+              <p class="step-panel-desc">Selecciona si prefieres vernos de forma presencial en <span class="editable-hint">[CIUDAD]</span> o a través de videoconsulta online.</p>
+
+              <div class="service-options-grid">
+                
+                <label class="service-card-label" data-modality="Online (Videoconsulta)" data-duration="60 minutos" data-price="65" data-price-formatted="65 €">
+                  <input type="radio" name="booking_service" value="primera-online" checked>
+                  <div class="service-card">
+                    <div class="service-card-header">
+                      <span class="service-card-tag">Online</span>
+                      <svg class="icon" aria-hidden="true" style="color: var(--color-sage);"><use href="assets/icons/icons.svg#icon-video"></use></svg>
+                    </div>
+                    <div class="service-card-title">Primera sesión online</div>
+                    <div class="service-card-meta">
+                      <span>⏱ 60 minutos</span>
+                      <span>🔒 Enlace cifrado</span>
+                    </div>
+                    <p style="font-size: var(--text-xs); color: var(--color-text-muted); margin-bottom: 0.75rem;">
+                      Espacio inicial para conocernos y valorar tu motivo de consulta desde la comodidad de tu casa.
+                    </p>
+                    <div class="service-card-price"><span class="editable-hint">[65 €]</span></div>
+                  </div>
+                </label>
+
+                <label class="service-card-label" data-modality="Presencial en [CIUDAD]" data-duration="60 minutos" data-price="70" data-price-formatted="70 €">
+                  <input type="radio" name="booking_service" value="primera-presencial">
+                  <div class="service-card">
+                    <div class="service-card-header">
+                      <span class="service-card-tag">Presencial</span>
+                      <svg class="icon" aria-hidden="true" style="color: var(--color-sage);"><use href="assets/icons/icons.svg#icon-map-pin"></use></svg>
+                    </div>
+                    <div class="service-card-title">Primera sesión en consulta</div>
+                    <div class="service-card-meta">
+                      <span>⏱ 60 minutos</span>
+                      <span>📍 <span class="editable-hint">[CIUDAD]</span></span>
+                    </div>
+                    <p style="font-size: var(--text-xs); color: var(--color-text-muted); margin-bottom: 0.75rem;">
+                      Encuentro en el espacio de consulta en un ambiente tranquilo, luminoso y accesible.
+                    </p>
+                    <div class="service-card-price"><span class="editable-hint">[70 €]</span></div>
+                  </div>
+                </label>
+
+                <label class="service-card-label" data-modality="Online (Videoconsulta)" data-duration="50 minutos" data-price="60" data-price-formatted="60 €">
+                  <input type="radio" name="booking_service" value="seguimiento-online">
+                  <div class="service-card">
+                    <div class="service-card-header">
+                      <span class="service-card-tag">Seguimiento</span>
+                      <svg class="icon" aria-hidden="true" style="color: var(--color-sage);"><use href="assets/icons/icons.svg#icon-video"></use></svg>
+                    </div>
+                    <div class="service-card-title">Sesión individual de seguimiento online</div>
+                    <div class="service-card-meta">
+                      <span>⏱ 50 minutos</span>
+                      <span>Pacientes en curso</span>
+                    </div>
+                    <div class="service-card-price"><span class="editable-hint">[60 €]</span></div>
+                  </div>
+                </label>
+
+                <label class="service-card-label" data-modality="Presencial en [CIUDAD]" data-duration="50 minutos" data-price="65" data-price-formatted="65 €">
+                  <input type="radio" name="booking_service" value="seguimiento-presencial">
+                  <div class="service-card">
+                    <div class="service-card-header">
+                      <span class="service-card-tag">Seguimiento</span>
+                      <svg class="icon" aria-hidden="true" style="color: var(--color-sage);"><use href="assets/icons/icons.svg#icon-map-pin"></use></svg>
+                    </div>
+                    <div class="service-card-title">Sesión individual de seguimiento presencial</div>
+                    <div class="service-card-meta">
+                      <span>⏱ 50 minutos</span>
+                      <span>Pacientes en curso</span>
+                    </div>
+                    <div class="service-card-price"><span class="editable-hint">[65 €]</span></div>
+                  </div>
+                </label>
+
+              </div>
+
+              <div class="booking-actions">
+                <span></span>
+                <button type="button" class="btn btn-primary booking-next-btn">
+                  <span>Continuar a fecha y hora</span>
+                  <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-arrow-right"></use></svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- PASO 2: Calendario Dinámico y Selector de Hora -->
+            <div id="bookingStep2" class="booking-step-panel">
+              <h3 class="step-panel-title">2. Elige el día y la hora que mejor te vengan</h3>
+              <p class="step-panel-desc">Los huecos mostrados están disponibles en tiempo real con espacio entre consultas para garantizar tu intimidad y descanso.</p>
+
+              <div class="datetime-selector-grid">
+                
+                <!-- Calendario del Mes -->
+                <div class="calendar-widget">
+                  <div class="calendar-header">
+                    <span id="calendarMonthName" class="calendar-month-name">Mes Año</span>
+                    <div style="font-size: var(--text-xs); color: var(--color-sage); font-weight: 600;">Días laborales</div>
+                  </div>
+
+                  <div class="calendar-weekdays">
+                    <span>L</span><span>M</span><span>X</span><span>J</span><span>V</span><span>S</span><span>D</span>
+                  </div>
+
+                  <div id="calendarDaysGrid" class="calendar-days-grid">
+                    <!-- Generado dinámicamente por booking.js -->
+                  </div>
+                </div>
+
+                <!-- Selector de Franja Horaria -->
+                <div class="time-slots-container">
+                  <div class="time-slots-label">Franjas horarias disponibles:</div>
+                  <div id="timeSlotsGrid" class="time-slots-grid">
+                    <!-- Generado dinámicamente por booking.js -->
+                  </div>
+                  <p style="font-size: 11.5px; color: var(--color-text-subtle); margin-top: 1rem;">
+                    * Si no encuentras ningún horario compatible con tus turnos, puedes contactarme por WhatsApp para valorar una opción alternativa.
+                  </p>
+                </div>
+
+              </div>
+
+              <div class="booking-actions">
+                <button type="button" class="btn btn-white booking-prev-btn">← Volver</button>
+                <button type="button" class="btn btn-primary booking-next-btn">
+                  <span>Continuar con tus datos</span>
+                  <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-arrow-right"></use></svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- PASO 3: Formulario Mínimo de Contacto (Sin datos clínicos invasivos) -->
+            <div id="bookingStep3" class="booking-step-panel">
+              <h3 class="step-panel-title">3. Datos de contacto para la cita</h3>
+              <p class="step-panel-desc">Solo solicitamos lo imprescindible para ponernos en contacto contigo y enviarte la confirmación.</p>
+
+              <div class="form-grid">
+                
+                <div class="form-grid-2 form-grid">
+                  <div class="form-group">
+                    <label for="bookingName" class="form-label">Nombre y apellidos *</label>
+                    <input type="text" id="bookingName" class="form-input" placeholder="Ej. Lucía Martínez" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="bookingPhone" class="form-label">Teléfono móvil *</label>
+                    <input type="tel" id="bookingPhone" class="form-input" placeholder="Ej. 600 000 000" required>
+                    <span class="form-hint">Para avisarte o llamarte si hay algún problema con la conexión.</span>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="bookingEmail" class="form-label">Correo electrónico *</label>
+                  <input type="email" id="bookingEmail" class="form-input" placeholder="ejemplo@correo.com" required>
+                  <span class="form-hint">Te enviaremos aquí los datos de la cita y el enlace seguro si es online.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="bookingNote" class="form-label">¿Hay algo breve que quieras comentarme antes de vernos? (Opcional)</label>
+                  <textarea id="bookingNote" class="form-textarea" rows="3" placeholder="Ej. Prefiero que me confirmes por WhatsApp / Es mi primera vez en terapia..."></textarea>
+                  <span class="form-hint" style="color: var(--color-sage-dark);">
+                    * Por tu privacidad, no es necesario que expliques detalles sensibles ni historial clínico en este formulario. En la sesión hablaremos con tranquilidad.
+                  </span>
+                </div>
+
+                <!-- Checkboxes de Privacidad y Comunicaciones Separadas -->
+                <div class="form-checkbox-group">
+                  <input type="checkbox" id="bookingPrivacy" required>
+                  <label for="bookingPrivacy">
+                    He leído y acepto la <a href="legal/privacidad.html" target="_blank" rel="noopener noreferrer">política de privacidad</a> para la gestión de mi cita psicológica y autorizo el tratamiento seguro de mis datos de contacto conforme al RGPD. *
+                  </label>
+                </div>
+
+                <div class="form-checkbox-group">
+                  <input type="checkbox" id="bookingNewsletter">
+                  <label for="bookingNewsletter">
+                    (Opcional) Deseo recibir ocasionalmente artículos de psicología y recursos de lectura. Podré darme de baja cuando quiera en un clic.
+                  </label>
+                </div>
+
+              </div>
+
+              <div class="booking-actions">
+                <button type="button" class="btn btn-white booking-prev-btn">← Volver</button>
+                <button type="button" class="btn btn-primary booking-next-btn">
+                  <span>Revisar resumen y confirmar</span>
+                  <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-arrow-right"></use></svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- PASO 4: Resumen, Tarifas y Confirmación -->
+            <div id="bookingStep4" class="booking-step-panel">
+              <h3 class="step-panel-title">4. Revisa los detalles de tu cita</h3>
+              <p class="step-panel-desc">Comprueba la información antes de enviar la solicitud. No se te cobrará nada ahora.</p>
+
+              <div class="booking-summary-card">
+                <div class="summary-row">
+                  <span class="summary-label">Servicio:</span>
+                  <strong id="summaryService">Primera sesión</strong>
+                </div>
+                <div class="summary-row">
+                  <span class="summary-label">Modalidad:</span>
+                  <span id="summaryModality">Online</span>
+                </div>
+                <div class="summary-row">
+                  <span class="summary-label">Fecha y horario:</span>
+                  <strong id="summaryDateTime" style="color: var(--color-terracotta);">Seleccionando...</strong>
+                </div>
+                <div class="summary-row">
+                  <span class="summary-label">Duración aproximada:</span>
+                  <span id="summaryDuration">60 minutos</span>
+                </div>
+                <div class="summary-row">
+                  <span class="summary-label">A nombre de:</span>
+                  <span id="summaryClient">Pendiente</span>
+                </div>
+                <div class="summary-row">
+                  <span class="summary-label">Importe a abonar tras la sesión:</span>
+                  <span id="summaryPrice" style="color: var(--color-sage-deep);">65 €</span>
+                </div>
+              </div>
+
+              <div class="cancellation-terms-box">
+                <strong>Condiciones claras y de confianza:</strong> El pago se realiza tras la sesión (por Bizum, tarjeta o transferencia). Si necesitas cancelar o aplazar tu cita, por favor avisa con al menos <strong>24 horas de antelación</strong> para que otra persona pueda ocupar la franja.
+              </div>
+
+              <div class="booking-actions">
+                <button type="button" class="btn btn-white booking-prev-btn">← Volver a modificar datos</button>
+                <button type="button" id="bookingConfirmBtn" class="btn btn-primary btn-lg">
+                  <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-check"></use></svg>
+                  <span>Confirmar y solicitar cita</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- ESTADO DE ÉXITO: Cita Tramitada y Descarga de Recordatorio -->
+            <div id="bookingSuccessState" class="booking-success-box" style="display: none;">
+              <div class="success-icon-circle">
+                <svg class="icon" style="width: 32px; height: 32px;" aria-hidden="true"><use href="assets/icons/icons.svg#icon-check"></use></svg>
+              </div>
+              <h3 style="font-family: var(--font-serif); font-size: var(--text-2xl); color: var(--color-text-main); margin-bottom: 0.5rem;">
+                ¡Solicitud de cita tramitada con éxito!
+              </h3>
+              <p style="font-size: var(--text-base); color: var(--color-text-muted); max-width: 580px; margin-inline: auto; margin-bottom: 1.5rem;">
+                Te he enviado un correo de confirmación con todos los detalles a <strong id="confirmedClientEmail">tu email</strong>.
+              </p>
+
+              <div style="background-color: var(--color-bg-sand-light); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: 1.5rem; max-width: 500px; margin-inline: auto; text-align: left; margin-bottom: 1.5rem;">
+                <p style="margin-bottom: 0.4rem; font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-sage-dark); font-weight: 700;">
+                  Código de referencia: <span id="confirmedRefCode" style="color: var(--color-terracotta);">PSI-2026-0000</span>
+                </p>
+                <p style="margin-bottom: 0.3rem; font-size: var(--text-sm);"><strong>Sesión:</strong> <span id="confirmedServiceTitle">Primera sesión</span></p>
+                <p style="margin-bottom: 0; font-size: var(--text-sm);"><strong>Cuándo:</strong> <span id="confirmedDateTime">Fecha y hora</span></p>
+              </div>
+
+              <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <button type="button" id="downloadCalendarBtn" class="btn btn-secondary btn-sm">
+                  <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-calendar"></use></svg>
+                  <span>Añadir a mi calendario (.ics)</span>
+                </button>
+                <a href="#inicio" class="btn btn-white btn-sm">Volver al inicio de la web</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Canales Alternativos de Contacto Ético y Gestión de Citas -->
+        <div class="booking-alternative-channels">
+          <div>
+            <h4 style="font-size: var(--text-base); margin-bottom: 0.25rem;">¿Prefieres consultar dudas de cita por WhatsApp?</h4>
+            <p style="font-size: var(--text-xs); color: var(--color-text-muted); margin-bottom: 0;">
+              Canal de soporte administrativo. <em>Por confidencialidad y ética, rogamos no enviar audios ni información clínica sensible por WhatsApp.</em>
+            </p>
+          </div>
+          <a href="https://wa.me/34XXXXXXXXX?text=Hola%20[NOMBRE],%20me%20gustar%C3%ADa%20consultar%20disponibilidad%20para%20una%20primera%20cita%20psicol%C3%B3gica" target="_blank" rel="noopener noreferrer" class="whatsapp-safe-btn">
+            <svg class="icon" aria-hidden="true" style="width: 16px; height: 16px;"><use href="assets/icons/icons.svg#icon-whatsapp"></use></svg>
+            <span>Consultar por WhatsApp</span>
+          </a>
+        </div>
+
+        <!-- Conmutador para Integración Externa [HERRAMIENTA DE RESERVAS] -->
+        <div style="text-align: center; margin-top: 1.5rem;">
+          <button type="button" id="toggleExternalToolBtn" style="background: none; border: none; font-size: var(--text-xs); color: var(--color-text-subtle); text-decoration: underline; cursor: pointer;">
+            ¿Prefieres usar [HERRAMIENTA DE RESERVAS]? (Calendly / Doctoralia / TuConsulta)
+          </button>
+        </div>
+
+        <div id="externalBookingToolContainer" style="display: none; margin-top: 1.5rem; background: #FFFFFF; border: 1.5px dashed var(--color-sage); border-radius: var(--radius-lg); padding: 2.5rem; text-align: center;">
+          <span class="section-tag">Espacio para Integración Externa</span>
+          <h4 style="margin-top: 0.5rem; margin-bottom: 0.5rem;">Integración con [HERRAMIENTA DE RESERVAS]</h4>
+          <p style="font-size: var(--text-sm); color: var(--color-text-muted); max-width: 600px; margin-inline: auto;">
+            Si ya cuentas con una cuenta en <strong>Doctoralia, Calendly o TuConsulta</strong>, este contenedor está preparado para incrustar el widget iframe oficial en un solo clic conservando el mismo estilo visual sereno.
+          </p>
+          <div style="background: var(--color-bg-sand-light); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: 1rem; font-family: monospace; font-size: 12px; color: var(--color-text-muted); max-width: 500px; margin-inline: auto;">
+            &lt;!-- Incrustar aquí el script o iframe de [HERRAMIENTA DE RESERVAS] --&gt;
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PIE DE PÁGINA (FOOTER) -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-brand">
+          <span class="brand-name" style="color: #FFFFFF; font-size: 1.45rem;">[NOMBRE]</span>
+          <p style="font-size: 0.85rem; color: #BDC8BE; margin-top: 0.35rem;">
+            Psicóloga General Sanitaria · Colegiada Nº <span class="editable-hint" style="color:#FFF;">[Nº COLEGIADA]</span><br>
+            Consulta Presencial en <span class="editable-hint" style="color:#FFF;">[CIUDAD]</span> y Videoconsulta Online
+          </p>
+          <p style="font-size: var(--text-xs); color: #97A699; line-height: 1.5;">
+            Práctica profesional regida por el Código Deontológico del Consejo General de la Psicología de España.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegación</h4>
+          <ul class="footer-links">
+            <li><a href="#reconocerte">¿Te reconoces en esto?</a></li>
+            <li><a href="#especialidades">Especialidades</a></li>
+            <li><a href="#sobre-mi">Sobre la profesional</a></li>
+            <li><a href="#proceso">Cómo trabajaremos</a></li>
+            <li><a href="#tarifas">Tarifas y ubicación</a></li>
+            <li><a href="#reservar">Reservar primera cita</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contacto y Localización</h4>
+          <ul class="footer-links" style="font-size: var(--text-sm);">
+            <li>📍 <span class="editable-hint" style="color:#FFF;">[DIRECCIÓN DE LA CONSULTA, CIUDAD]</span></li>
+            <li>✉️ <span class="editable-hint" style="color:#FFF;">[contacto@tudominio.com]</span></li>
+            <li>📞 <span class="editable-hint" style="color:#FFF;">[+34 XXX XX XX XX]</span></li>
+            <li style="margin-top: 0.5rem; font-size: var(--text-xs); color: #97A699;">
+              Horario habitual: Lunes a Viernes de 09:30 a 20:00 (Con cita previa).
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 [NOMBRE] · Psicología Sanitaria. Todos los derechos reservados.
+        </div>
+        <div class="footer-legal-links">
+          <a href="legal/aviso-legal.html">Aviso Legal</a>
+          <a href="legal/privacidad.html">Política de Privacidad</a>
+          <a href="legal/cookies.html">Política de Cookies</a>
+          <a href="#" id="reopenCookieSettings">Configurar cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BARRA FLOTANTE MÓVIL DISCRETA (BOTTOM PILL BAR) -->
+  <aside class="mobile-sticky-bar" aria-label="Acciones rápidas para móvil">
+    <a href="#reservar" class="btn btn-primary btn-sm">
+      <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-calendar"></use></svg>
+      <span>Pedir cita</span>
+    </a>
+    <a href="https://wa.me/34XXXXXXXXX?text=Hola%20[NOMBRE],%20tengo%20una%20duda%20sobre%20las%20citas" class="btn btn-white btn-sm" aria-label="Consultar dudas por WhatsApp (Gestión de cita únicamente)">
+      <svg class="icon" aria-hidden="true" style="color: #25D366;"><use href="assets/icons/icons.svg#icon-whatsapp"></use></svg>
+      <span>WhatsApp</span>
+    </a>
+  </aside>
+
+  <!-- BANNER DE CONSENTIMIENTO DE COOKIES ÉTICO (RGPD) -->
+  <aside id="cookieBanner" class="cookie-banner" role="dialog" aria-labelledby="cookie-title" aria-describedby="cookie-desc">
+    <h4 id="cookie-title">
+      <svg class="icon" aria-hidden="true" style="color: var(--color-sage);"><use href="assets/icons/icons.svg#icon-shield"></use></svg>
+      Tu privacidad y tranquilidad
+    </h4>
+    <p id="cookie-desc">
+      Utilizamos cookies técnicas necesarias para que el asistente de reserva funcione correctamente. Opcionalmente, podemos utilizar métricas anónimas para evaluar el rendimiento de la web, sin registrar jamás datos clínicos ni historiales. Consulta nuestra <a href="legal/cookies.html">política de cookies</a>.
+    </p>
+    <div class="cookie-banner-actions">
+      <button type="button" id="cookieAcceptAllBtn" class="btn btn-primary btn-sm">Aceptar todas</button>
+      <button type="button" id="cookieAcceptEssentialBtn" class="btn btn-white btn-sm">Solo necesarias</button>
+      <button type="button" id="cookieConfigBtn" class="btn btn-secondary btn-sm">Configurar</button>
+    </div>
+  </aside>
+
+  <!-- MODAL DE CONFIGURACIÓN GRANULAR DE COOKIES -->
+  <div id="cookieConfigModal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="cookie-modal-title">
+    <div class="modal-content">
+      <button type="button" class="modal-close-btn" aria-label="Cerrar modal de configuración">
+        <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-cross"></use></svg>
+      </button>
+
+      <h3 id="cookie-modal-title" style="font-family: var(--font-serif); margin-bottom: 0.5rem;">Configuración de Privacidad y Cookies</h3>
+      <p style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: 1.5rem;">
+        Puedes activar o desactivar cada categoría a tu conveniencia.
+      </p>
+
+      <div style="display: flex; flex-direction: column; gap: 1.25rem; margin-bottom: 1.5rem;">
+        <div style="background: var(--color-bg-sand-light); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: 1rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
+            <strong>Cookies Técnicas Esenciales</strong>
+            <span style="font-size: 11px; font-weight: 700; color: var(--color-sage); background: #FFF; padding: 2px 8px; border-radius: 99px;">Siempre activas</span>
+          </div>
+          <p style="font-size: var(--text-xs); color: var(--color-text-muted); margin-bottom: 0;">
+            Imprescindibles para navegar por la web y recordar el estado de tu selección en el calendario de reserva.
+          </p>
+        </div>
+
+        <div style="background: var(--color-bg-white); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: 1rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
+            <strong>Analítica Anónima de Rendimiento</strong>
+            <input type="checkbox" id="analyticsConsentToggle" checked style="accent-color: var(--color-sage); width: 18px; height: 18px;">
+          </div>
+          <p style="font-size: var(--text-xs); color: var(--color-text-muted); margin-bottom: 0;">
+            Nos ayuda a saber qué contenidos se leen más para mejorar la web de forma agregada, con IP anonimizada.
+          </p>
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: flex-end; gap: 0.75rem;">
+        <button type="button" class="btn btn-primary btn-sm modal-close-btn-action">Guardar preferencias</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL DE VÍDEO DE PRESENTACIÓN DE LA PSICÓLOGA CON SUBTÍTULOS Y ACCESIBILIDAD -->
+  <div id="presentationVideoModal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="pres-video-title" aria-hidden="true">
+    <div class="modal-content">
+      <button type="button" id="closePresentationVideoBtn" class="modal-close-btn" aria-label="Cerrar vídeo de presentación">
+        <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#icon-cross"></use></svg>
+      </button>
+
+      <span class="section-tag">Presentación Personal</span>
+      <h3 id="pres-video-title" style="margin-bottom: 0.5rem;">Unas palabras de bienvenida de [NOMBRE]</h3>
+      <p style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: 1.25rem;">
+        Para que conozcas mi voz, mi manera de comunicarme y cómo entiendo la terapia antes de decidir.
+      </p>
+
+      <!-- Reproductor de vídeo con subtítulos y transcripción voluntaria -->
+      <div style="border-radius: var(--radius-lg); overflow: hidden; background: #000; aspect-ratio: 16/9; position: relative; margin-bottom: 1.25rem;">
+        <video id="presentationVideo" controls preload="none" poster="assets/images/consultation-detail.svg" style="width: 100%; height: 100%; object-fit: cover;">
+          <source src="assets/videos/presentation.mp4" type="video/mp4">
+          <track kind="subtitles" src="assets/videos/subtitles-es.vtt" srclang="es" label="Español" default>
+          Tu navegador no soporta vídeo HTML5 con subtítulos.
+        </video>
+      </div>
+
+      <!-- Transcripción textual completa para accesibilidad y lectura rápida -->
+      <details style="background: var(--color-bg-sand-light); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: 0.85rem 1.15rem; font-size: var(--text-xs); color: var(--color-text-muted);">
+        <summary style="font-weight: 600; cursor: pointer; color: var(--color-text-main);">
+          Leer la transcripción del vídeo de presentación
+        </summary>
+        <div style="margin-top: 0.75rem; line-height: 1.6;">
+          <p><em>«Hola, te doy la bienvenida a este espacio. Si estás viendo esto, es muy probable que lleves un tiempo conviviendo con sensaciones que te desbordan, con dudas o con la necesidad de poner orden a lo que sientes...»</em></p>
+          <p><em>«Quiero que sepas que aquí no buscamos juzgar tus decisiones ni apresurar tus tiempos. La consulta es un espacio de escucha segura y rigor científico para comprender qué te pasa y construir juntos herramientas con sentido para ti. Estaré encantada de conocerte cuando sientas que es tu momento.»</em></p>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- Scripts Modulares -->
+  <script src="js/app.js"></script>
+  <script src="js/booking.js"></script>
+  <script src="js/legal.js"></script>
+</body>
+</html>
