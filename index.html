@@ -81,45 +81,72 @@
 </div>
 </header>
 <main id="main-content">
-<!-- SECCIÓN 1: INICIO / HERO -->
-<section aria-labelledby="hero-title" class="section hero-section" id="inicio">
-<div class="container">
-<div class="hero-grid">
-<!-- Columna Izquierda: Mensaje Central y Confianza -->
-<div class="hero-content">
+<!-- SECCIÓN 1: HERO + PRESENTACIÓN PROFESIONAL UNIFICADA -->
+<section aria-labelledby="hero-title" class="section hero-section hero-unified" id="inicio">
+<div class="container hero-unified-container">
+<div class="hero-unified-grid">
+<div class="hero-content hero-unified-copy">
 <div class="hero-badges-wrapper">
-<span class="hero-badge">
-<svg aria-hidden="true" class="icon"><use href="assets/icons/icons.svg#icon-shield"></use></svg><span data-text="t90">
-                Colegiada Nº </span><span class="editable-hint"><span data-text="t91">[Nº COLEGIADA]</span></span>
+<span class="hero-badge hero-badge-strong">
+<svg aria-hidden="true" class="icon"><use href="assets/icons/icons.svg#icon-shield"></use></svg>
+<span data-text="t90">Colegiada Nº </span><span data-text="t91">M-44459</span>
 </span>
 <span class="hero-badge">
-<svg aria-hidden="true" class="icon"><use href="assets/icons/icons.svg#icon-map-pin"></use></svg>
+<svg aria-hidden="true" class="icon"><use href="assets/icons/icons.svg#icon-video"></use></svg>
 <span data-text="t97">Online</span>
 </span>
 </div>
-<h1 class="hero-title" id="hero-title"><span data-text="t105">
-              Un espacio para comprender lo que sientes y empezar a cuidarte.
-            </span></h1>
-<p class="hero-text"><span data-text="t107">
-              Soy </span><strong><span data-text="t108">[NOMBRE]</span></strong><span data-text="t109">, psicóloga </span><span class="editable-hint"><span data-text="t110">[TITULACIÓN VERIFICADA: Graduada en Psicología y Máster en Psicología General Sanitaria]</span></span><span data-text="t111">. Te acompaño a explorar lo que estás viviendo y a trabajar en cambios que tengan sentido para ti, desde una atención cercana, respetuosa y adaptada a tus necesidades.
-            </span></p>
-<div class="hero-ctas">
+
+<p class="hero-kicker">Psicología sanitaria · acompañamiento cercano y basado en evidencia</p>
+<h1 class="hero-title" id="hero-title"><span data-text="t105">Un espacio para comprender lo que sientes y empezar a cuidarte.</span></h1>
+<p class="hero-text"><span data-text="t107">Soy </span><strong><span data-text="t108">Julia</span></strong><span data-text="t109">, psicóloga </span><span class="hero-degree"><span data-text="t110">Graduada en Psicología y Máster en Psicología General Sanitaria</span></span><span data-text="t111">. Te acompaño a explorar lo que estás viviendo y a trabajar en cambios reales que tengan impacto en tu forma de afrontar diversas situaciones de tu vida.</span></p>
+
+<div class="hero-ctas hero-unified-ctas">
 <a class="btn btn-primary btn-lg" href="#reservar">
 <svg aria-hidden="true" class="icon"><use href="assets/icons/icons.svg#icon-calendar"></use></svg>
-<span><span data-text="t116">Reservar una primera cita</span></span>
+<span data-text="t116">Reservar una primera cita</span>
 </a>
 <a class="btn btn-secondary btn-lg" href="#sobre-mi">
-<span><span data-text="t120">Conóceme</span></span>
+<span data-text="t120">Conóceme</span>
 <svg aria-hidden="true" class="icon"><use href="assets/icons/icons.svg#icon-arrow-right"></use></svg>
 </a>
 </div>
-<div class="hero-reassurance">
-<svg aria-hidden="true" class="icon" style="color: var(--color-sage);"><use href="assets/icons/icons.svg#icon-check"></use></svg>
-<span><span data-text="t127">Sin compromisos de permanencia · Enfoque humano y fundamentado en la ciencia</span></span>
+
+<div class="hero-trust-row" aria-label="Datos profesionales destacados">
+<div class="hero-trust-item">
+<div class="hero-trust-icon"><svg aria-hidden="true" class="icon"><use href="assets/icons/icons.svg#icon-check"></use></svg></div>
+<div><strong>Psicología General Sanitaria</strong><span>Formación universitaria y sanitaria oficial</span></div>
+</div>
+<div class="hero-trust-item">
+<div class="hero-trust-icon"><svg aria-hidden="true" class="icon"><use href="assets/icons/icons.svg#icon-shield"></use></svg></div>
+<div><strong>Ejercicio profesional</strong><span data-text="t127">Sin compromisos de permanencia · Enfoque humano y fundamentado en la ciencia</span></div>
 </div>
 </div>
-<!-- Columna Derecha: Contenedor Multimedia Hero con Vídeo Ambiental y Pausa -->
-<div class="hero-media-wrapper"><figure class="hero-media-card"><img alt="Ilustración de un espacio de consulta sereno" class="hero-still" data-image="i0" decoding="async" fetchpriority="high" loading="eager" src="assets/images/consultation-hero.svg"/><figcaption><span data-text="t133">Un espacio para parar, hablar y cuidarte.</span></figcaption></figure></div>
+</div>
+
+<div class="hero-profile-column">
+<figure class="hero-profile-photo">
+<img alt="Julia Gil-Ortega, psicóloga sanitaria" class="hero-still" data-image="i0" decoding="async" fetchpriority="high" loading="eager" src="assets/images/consultation-hero.svg"/>
+</figure>
+
+<div class="hero-profile-card" id="sobre-mi">
+<div class="hero-profile-heading">
+<span class="section-tag"><span data-text="t401">Conóceme</span></span>
+<h2><span data-text="t403">Cercanía humana y rigor científico en cada sesión</span></h2>
+</div>
+<p class="hero-profile-text"><span data-text="t409">En la consulta no encontrarás miradas condescendientes ni juicios de valor. Mi compromiso es ofrecerte un espacio de serenidad, escucha activa y absoluta confidencialidad, donde puedas depositar lo que te preocupa con la certeza de sentirte escuchada y acompañada.</span></p>
+<div class="hero-profile-credentials">
+<div class="profile-credential">
+<span class="profile-credential-label">Colegiación</span>
+<strong><span data-text="t90">Colegiada Nº </span><span data-text="t91">M-44459</span></strong>
+</div>
+<div class="profile-credential">
+<span class="profile-credential-label">Enfoque terapéutico</span>
+<strong><span data-text="t432">Terapias de Tercera Generación (ACT, CFT y Terapia Cognitivo-Conductual Basada en Apego)</span></strong>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 </section>
@@ -286,67 +313,6 @@
 </div>
 </div>
 </section>
-<!-- SECCIÓN 4: SOBRE MÍ Y VÍDEO DE PRESENTACIÓN -->
-<section aria-labelledby="sobre-mi-title" class="section section-alt" id="sobre-mi">
-<div class="container">
-<div class="about-grid">
-<!-- Columna Izquierda: Fotografía de la Profesional y Vídeo Trigger -->
-<div class="about-media-col">
-<div class="about-photo-card">
-<!-- Marcador de posición claramente identificado para la foto auténtica -->
-<img alt="Espacio reservado para la fotografía profesional de la psicóloga [NOMBRE] en su consulta" class="about-photo" data-image="i1" decoding="async" loading="lazy" src="assets/images/psicologa-portrait.svg"/>
-</div>
-<!-- Disparador accesible para ver el vídeo de presentación -->
-
-</div>
-<!-- Columna Derecha: Presentación Humana, Credenciales y Filosofía -->
-<div class="about-bio-col">
-<span class="section-tag"><span data-text="t401">Conóceme</span></span>
-<h2 id="sobre-mi-title"><span data-text="t403">Cercanía humana y rigor científico en cada sesión</span></h2>
-<p class="lead"><span data-text="t405">
-              Hola, soy </span><strong><span data-text="t406">[NOMBRE]</span></strong><span data-text="t407">. Concibo la psicoterapia no como un manual de instrucciones estándar, sino como una alianza de colaboración genuina, donde tú eres la persona experta en tu propia vida y yo pongo a tu servicio mis conocimientos clínicos.
-            </span></p>
-<p><span data-text="t409">
-              En la consulta no encontrarás miradas condescendientes ni juicios de valor. Mi compromiso es ofrecerte un espacio de serenidad, escucha activa y absoluta confidencialidad, donde puedas depositar lo que te preocupa con la certeza de sentirte escuchada y acompañada.
-            </span></p>
-<!-- Credenciales Verificadas y Número de Colegiada -->
-<div class="about-credentials">
-<div class="credential-item">
-<h4><span data-text="t415">Habilitación Sanitaria</span></h4>
-<p><span class="editable-hint"><span data-text="t417">[Licenciada / Graduada en Psicología · Máster en Psicología General Sanitaria]</span></span></p>
-</div>
-<div class="credential-item">
-<h4><span data-text="t421">Colegiación Oficial</span></h4>
-<p><span data-text="t423">Colegiada Nº </span><span class="editable-hint"><span data-text="t424">[Nº COLEGIADA]</span></span><span data-text="t425"> en el Colegio Oficial de la Psicología de </span><span class="editable-hint"><span data-text="t426">[CIUDAD/COMUNIDAD]</span></span></p>
-</div>
-<div class="credential-item">
-<h4><span data-text="t430">Enfoque Terapéutico</span></h4>
-<p><span data-text="t432">Terapias de Tercera Generación (ACT, CFT y Terapia Cognitivo-Conductual Basada en Apego)</span></p>
-</div>
-<div class="credential-item">
-<h4><span data-text="t436">Ejercicio Ético</span></h4>
-<p><span data-text="t438">Adhesión plena al Código Deontológico y formación continuada basada en evidencia</span></p>
-</div>
-</div>
-<p style="font-size: var(--text-sm); color: var(--color-text-subtle);"><span data-text="t442">
-              Creo firmemente que la terapia es un proceso vivo: no se trata de encajarte en una teoría, sino de adaptar la psicología a tu realidad y a lo que tú necesitas en este momento.
-            </span></p>
-<a class="btn btn-secondary btn-sm" href="#proceso" style="margin-top: 0.5rem;">
-<span><span data-text="t445">Descubre cómo trabajaremos juntos</span></span>
-<svg aria-hidden="true" class="icon"><use href="assets/icons/icons.svg#icon-arrow-right"></use></svg>
-</a>
-</div>
-</div>
-</div>
-</section>
-<!-- FRASE INSPIRADORA 3 -->
-<div class="quote-banner">
-<div class="container">
-<div class="quote-box">
-<p><span data-text="t458">“Podemos explorar juntas o juntos qué necesitas en este momento.”</span></p>
-</div>
-</div>
-</div>
 <!-- SECCIÓN 5: CÓMO TRABAJAREMOS (EL PROCESO TERAPÉUTICO) -->
 <section aria-labelledby="proceso-title" class="section" id="proceso">
 <div class="container">
