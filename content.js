@@ -470,15 +470,15 @@ window.SITE_CONTENT = {
           "group": "General"
         },
         "t468": {
-          "value": "El Camino Terapéutico",
+          "value": "Tu proceso",
           "group": "proceso"
         },
         "t470": {
-          "value": "Cómo trabajaremos",
+          "value": "Tu proceso, paso a paso",
           "group": "proceso"
         },
         "t472": {
-          "value": "Un proceso estructurado, transparente y libre de incertidumbre para que sepas qué esperar en cada etapa.",
+          "value": "Desde el primer contacto hasta que te sientas con más recursos, sabrás qué esperar en cada momento. Sin prisas, sin exigencias y adaptándonos a ti.",
           "group": "proceso"
         },
         "t479": {
@@ -486,11 +486,11 @@ window.SITE_CONTENT = {
           "group": "proceso"
         },
         "t481": {
-          "value": "Eliges una cita o pides información",
+          "value": "Primer contacto",
           "group": "proceso"
         },
         "t483": {
-          "value": "",
+          "value": "Puedes escribir para preguntar cualquier duda o reservar una primera cita. No necesitas tener claro qué decir ni explicar todo desde el principio.",
           "group": "proceso"
         },
         "t484": {
@@ -506,11 +506,11 @@ window.SITE_CONTENT = {
           "group": "proceso"
         },
         "t493": {
-          "value": "Primera sesión de acogida",
+          "value": "Primera sesión",
           "group": "proceso"
         },
         "t495": {
-          "value": "Nos conocemos con calma. Me cuentas qué te ha animado a consultar, exploramos qué estás experimentando y resolvemos todas tus dudas sobre la forma de trabajar.",
+          "value": "Nos conocemos con calma y hablamos sobre lo que te está preocupando. Mi objetivo es que puedas sentirte escuchada y cómoda, sin juicios ni interrogatorios. La sesión dura aproximadamente 50–60 minutos y no necesitas preparar nada.",
           "group": "proceso"
         },
         "t501": {
@@ -518,11 +518,11 @@ window.SITE_CONTENT = {
           "group": "proceso"
         },
         "t503": {
-          "value": "Acordamos objetivos y ritmo",
+          "value": "Marcamos juntos el camino",
           "group": "proceso"
         },
         "t505": {
-          "value": "Definimos de mutuo acuerdo qué metas tienen sentido para ti. No hay un número prefijado de sesiones: ajustamos la frecuencia según tus avances y disponibilidad.",
+          "value": "A partir de lo que vayamos viendo, acordamos qué te gustaría trabajar y el ritmo que tenga sentido para ti. No existe un número fijo de sesiones ni un proceso igual para todo el mundo.",
           "group": "proceso"
         },
         "t511": {
@@ -530,15 +530,15 @@ window.SITE_CONTENT = {
           "group": "proceso"
         },
         "t513": {
-          "value": "Revisión y consolidación",
+          "value": "Avanzamos a tu ritmo",
           "group": "proceso"
         },
         "t515": {
-          "value": "Hacemos paradas periódicas para evaluar cómo te sientes y consolidar los cambios. Conforme ganas autonomía, espaciamos las sesiones hacia el cierre del proceso.",
+          "value": "Iremos revisando cómo te encuentras, qué está cambiando y qué necesitas en cada momento. A medida que ganes herramientas y seguridad, podremos espaciar las sesiones hasta que sientas que puedes continuar con mayor autonomía.",
           "group": "proceso"
         },
         "t520": {
-          "value": "\n            Cada persona tiene sus propios tiempos. La terapia no es una carrera lineal; es un espacio seguro donde avanzar, detenerse a reflexionar y retomar con calma.\n          ",
+          "value": "Cada persona tiene sus propios tiempos. La terapia no es una carrera: es un espacio para avanzar con calma y a tu ritmo.",
           "group": "proceso"
         },
         "t530": {
@@ -594,15 +594,15 @@ window.SITE_CONTENT = {
           "group": "section"
         },
         "t568": {
-          "value": "\n              Libertad y confianza\n            ",
+          "value": "Lo importante es que te sientas cómoda con el proceso",
           "group": "section"
         },
         "t570": {
-          "value": "El primer encuentro sirve también para que tú valores si te sientes a gusto conmigo y si encajo con lo que estás buscando.",
+          "value": "La primera sesión también sirve para que tú valores si conectas conmigo y con mi forma de trabajar.",
           "group": "section"
         },
         "t572": {
-          "value": "La alianza terapéutica requiere conexión y sintonía humana. Tienes total libertad para decidir si deseas continuar o no tras este primer encuentro.",
+          "value": "Puedes decidir libremente si quieres continuar.",
           "group": "section"
         },
         "t583": {
