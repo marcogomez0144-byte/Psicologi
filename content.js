@@ -7,7 +7,7 @@ window.SITE_CONTENT = {
     "city": "Online",
     "phone": "34620214973",
     "email": "juliagilortega7@gmail.com",
-    "bookingUrl": "",
+    "bookingUrl": "https://calendar.app.google/bGnAK6NmvGXMCsKS7",
     "accent": "#f7f6f1"
   },
   "pages": {
@@ -118,27 +118,27 @@ window.SITE_CONTENT = {
           "group": "inicio"
         },
         "t105": {
-          "value": "¿Sientes que llevas demasiado tiempo intentando estar bien?",
+          "value": "\n              Un espacio para comprender lo que sientes y empezar a cuidarte.\n            ",
           "group": "inicio"
         },
         "t107": {
-          "value": "A veces sabemos lo que deberíamos hacer, pero aun así nos cuesta parar, poner límites, tomar decisiones o entender qué nos está pasando.",
+          "value": "\n              Soy ",
           "group": "inicio"
         },
         "t108": {
-          "value": "Soy Julia, psicóloga sanitaria",
+          "value": "Julia",
           "group": "inicio"
         },
         "t109": {
-          "value": ", y te acompaño a comprender lo que estás viviendo y a desarrollar herramientas para afrontarlo de una forma más consciente y saludable.",
-          "group": "inicio"
-        },
-        "t110": {
           "value": "",
           "group": "inicio"
         },
+        "t110": {
+          "value": "Graduada en Psicología y Máster en Psicología General Sanitaria",
+          "group": "inicio"
+        },
         "t111": {
-          "value": "Un espacio sin juicios, donde puedas hablar de lo que te pasa tal y como es y empezar a construir cambios que realmente tengan sentido para ti.",
+          "value": ". Te acompaño a explorar lo que estás viviendo y a trabajar en cambios reales que tengan impacto en tu forma de afrontar diversas situaciones de tu vida.",
           "group": "inicio"
         },
         "t116": {
@@ -162,39 +162,39 @@ window.SITE_CONTENT = {
           "group": "General"
         },
         "t153": {
-          "value": "Quizá te reconoces",
+          "value": "Punto de Partida",
           "group": "reconocerte"
         },
         "t155": {
-          "value": "Hay momentos en los que no es fácil sostenerlo todo",
+          "value": "Quizá te reconoces en esto",
           "group": "reconocerte"
         },
         "t157": {
-          "value": "No necesitas encajar en una etiqueta para pedir ayuda. A veces basta con notar que algo te está desgastando, bloqueando o alejando de cómo quieres sentirte.",
+          "value": "A veces no sabemos nombrar con exactitud lo que nos ocurre, pero sí sentimos que algo nos pesa o nos sobrepasa en el día a día.",
           "group": "reconocerte"
         },
         "t167": {
-          "value": "Ansiedad, presión y autoexigencia",
+          "value": "Preocupación constante y sobrecarga mental",
           "group": "reconocerte"
         },
         "t169": {
-          "value": "Cuando la cabeza no para, sientes que tienes que rendir siempre o un error pesa demasiado. Puede aparecer, por ejemplo, en deportistas ante la competición, una lesión o la vuelta al rendimiento, y en mujeres que viven con un nivel de exigencia constante.",
+          "value": "Sientes que tu cabeza no descansa, anticipando problemas futuros o revisando mentalmente cada detalle. Una sensación continua de alerta interna y tensión en el cuerpo que dificulta desconectar y descansar.",
           "group": "reconocerte"
         },
         "t178": {
-          "value": "Autoestima, cuerpo y enfermedad crónica",
+          "value": "Dificultad para poner límites",
           "group": "reconocerte"
         },
         "t180": {
-          "value": "Vivir con una enfermedad visible como la psoriasis puede influir en cómo te miras, te relacionas o afrontas los brotes y la exposición social. También podemos trabajar la inseguridad corporal, la vergüenza, la evitación y el impacto emocional que todo esto puede tener en tu día a día.",
+          "value": "Tiendes a priorizar el bienestar de los demás por encima de tus propias necesidades. Decir no te genera culpa o miedo al conflicto, lo que poco a poco te lleva al agotamiento emocional y al resentimiento.",
           "group": "reconocerte"
         },
         "t189": {
-          "value": "Cambios, límites e identidad",
+          "value": "Transición vital, pérdidas o cambios inesperados y tu propia identidad",
           "group": "reconocerte"
         },
         "t191": {
-          "value": "Hay etapas en las que cuesta saber qué necesitas o quién eres fuera de ciertos roles. Puede ocurrir tras una ruptura, un cambio vital, una lesión deportiva, dejar de competir o al adaptarte a una enfermedad crónica. Trabajamos para recuperar dirección y relacionarte contigo desde un lugar más amable.",
+          "value": "Una ruptura sentimental, un cambio laboral, una pérdida significativa o simplemente la sensación de que la etapa vital en la que estabas ya no encaja contigo y necesitas redescubrir quién eres ahora.",
           "group": "reconocerte"
         },
         "t200": {
@@ -206,11 +206,11 @@ window.SITE_CONTENT = {
           "group": "reconocerte"
         },
         "t211": {
-          "value": "Si no sabes exactamente qué necesitas trabajar, no pasa nada.",
+          "value": "Aclaración importante:",
           "group": "reconocerte"
         },
         "t212": {
-          "value": " En la primera sesión podemos explorar qué está ocurriendo y valorar juntas cómo puedo ayudarte.",
+          "value": " Estas situaciones describen vivencias humanas frecuentes que atendemos en consulta; en ningún caso constituyen una etiqueta médica ni un diagnóstico psicológico.\n          ",
           "group": "reconocerte"
         },
         "t222": {
@@ -218,15 +218,15 @@ window.SITE_CONTENT = {
           "group": "General"
         },
         "t232": {
-          "value": "Áreas de acompañamiento",
+          "value": "Áreas de Especialización",
           "group": "especialidades"
         },
         "t234": {
-          "value": "¿En qué puedo acompañarte?",
+          "value": "Cómo puedo acompañarte",
           "group": "especialidades"
         },
         "t236": {
-          "value": "Hay momentos en los que algo no termina de encajar, aunque cueste ponerle nombre. Podemos empezar por entender qué te está pasando y qué necesitas ahora.",
+          "value": "Trabajo desde un marco integrativo basado en la evidencia empírica. Cada proceso se adapta a tu historia y a tus ritmos, sin fórmulas rígidas ni promesas vacías.",
           "group": "especialidades"
         },
         "t243": {
@@ -234,11 +234,11 @@ window.SITE_CONTENT = {
           "group": "especialidades"
         },
         "t245": {
-          "value": "Ansiedad y estrés",
+          "value": "Ansiedad, Estrés y Regulación Somática",
           "group": "especialidades"
         },
         "t247": {
-          "value": "Relaciones y límites",
+          "value": "La ansiedad no es un enemigo que haya que erradicar a cualquier precio, sino una señal de alarma de nuestro sistema nervioso que ha aprendido a sobreactivarse.",
           "group": "especialidades"
         },
         "t252": {
@@ -274,11 +274,11 @@ window.SITE_CONTENT = {
           "group": "especialidades"
         },
         "t277": {
-          "value": "Autoestima e inseguridad",
+          "value": "Autoestima, Autocrítica y Vínculo Propio",
           "group": "especialidades"
         },
         "t279": {
-          "value": "Perfeccionismo y autoexigencia",
+          "value": "La verdadera autoestima no consiste en repetir afirmaciones positivas frente al espejo, sino en construir una relación honesta, compasiva y sólida con quien eres hoy.",
           "group": "especialidades"
         },
         "t284": {
@@ -314,11 +314,11 @@ window.SITE_CONTENT = {
           "group": "especialidades"
         },
         "t309": {
-          "value": "Gestión emocional",
+          "value": "Límites, Asertividad y Dificultades Relacionales",
           "group": "especialidades"
         },
         "t311": {
-          "value": "Dificultades relacionadas con la imagen corporal",
+          "value": "Las relaciones son el espejo de cómo nos cuidamos y cómo aprendimos a vincularnos con los demás desde nuestras primeras experiencias de apego.",
           "group": "especialidades"
         },
         "t316": {
@@ -354,11 +354,11 @@ window.SITE_CONTENT = {
           "group": "especialidades"
         },
         "t341": {
-          "value": "Cambios vitales y toma de decisiones",
+          "value": "Duelo, Pérdidas y Crisis de Cambio Vital",
           "group": "especialidades"
         },
         "t343": {
-          "value": "Procesos de adaptación y momentos de bloqueo",
+          "value": "Afrontar un cambio significativo duele porque importa. Elaborar un duelo no es olvidar lo vivido, sino aprender a colocarlo en un lugar donde no duela permanentemente.",
           "group": "especialidades"
         },
         "t348": {
@@ -394,11 +394,11 @@ window.SITE_CONTENT = {
           "group": "sobre-mi"
         },
         "t403": {
-          "value": "Psicología cercana, rigurosa y sin juicios",
+          "value": "Cercanía humana y rigor científico en cada sesión",
           "group": "sobre-mi"
         },
         "t405": {
-          "value": "Creo en una psicología que no consiste únicamente en hablar de lo que ocurre, sino también en entenderlo, darle un sentido y encontrar nuevas formas de afrontarlo.",
+          "value": "\n              Hola, soy ",
           "group": "sobre-mi"
         },
         "t406": {
@@ -406,11 +406,11 @@ window.SITE_CONTENT = {
           "group": "sobre-mi"
         },
         "t407": {
-          "value": "Mi forma de trabajar combina cercanía y rigor científico, adaptando el proceso a cada persona y a su momento vital.",
+          "value": ". Concibo la psicoterapia no como un manual de instrucciones estándar, sino como una alianza de colaboración genuina, donde tú eres la persona experta en tu propia vida y yo pongo a tu servicio mis conocimientos clínicos.\n            ",
           "group": "sobre-mi"
         },
         "t409": {
-          "value": "En consulta encontrarás un espacio de escucha, seguridad y confidencialidad, donde no tienes que demostrar que estás bien ni tener todas las respuestas.",
+          "value": "\n              En la consulta no encontrarás miradas condescendientes ni juicios de valor. Mi compromiso es ofrecerte un espacio de serenidad, escucha activa y absoluta confidencialidad, donde puedas depositar lo que te preocupa con la certeza de sentirte escuchada y acompañada.\n            ",
           "group": "sobre-mi"
         },
         "t415": {
@@ -458,7 +458,7 @@ window.SITE_CONTENT = {
           "group": "sobre-mi"
         },
         "t442": {
-          "value": "No se trata de cambiar quién eres. Se trata de entenderte mejor y aprender a estar de otra manera contigo misma.",
+          "value": "\n              Creo firmemente que la terapia es un proceso vivo: no se trata de encajarte en una teoría, sino de adaptar la psicología a tu realidad y a lo que tú necesitas en este momento.\n            ",
           "group": "sobre-mi"
         },
         "t445": {
@@ -470,15 +470,15 @@ window.SITE_CONTENT = {
           "group": "General"
         },
         "t468": {
-          "value": "Cómo trabajamos",
+          "value": "El Camino Terapéutico",
           "group": "proceso"
         },
         "t470": {
-          "value": "Cómo trabajamos",
+          "value": "Cómo trabajaremos",
           "group": "proceso"
         },
         "t472": {
-          "value": "Un proceso adaptado a ti, con una dirección clara y herramientas que puedas llevar a tu día a día.",
+          "value": "Un proceso estructurado, transparente y libre de incertidumbre para que sepas qué esperar en cada etapa.",
           "group": "proceso"
         },
         "t479": {
@@ -486,11 +486,11 @@ window.SITE_CONTENT = {
           "group": "proceso"
         },
         "t481": {
-          "value": "Entender qué te está pasando",
+          "value": "Eliges una cita o pides información",
           "group": "proceso"
         },
         "t483": {
-          "value": "Antes de buscar soluciones, necesitamos comprender qué estás viviendo, qué lo mantiene y qué necesitas.",
+          "value": "",
           "group": "proceso"
         },
         "t484": {
@@ -506,11 +506,11 @@ window.SITE_CONTENT = {
           "group": "proceso"
         },
         "t493": {
-          "value": "Encontrar herramientas que te sirvan",
+          "value": "Primera sesión de acogida",
           "group": "proceso"
         },
         "t495": {
-          "value": "Trabajaremos con estrategias basadas en evidencia y adaptadas a tu situación, no con fórmulas universales.",
+          "value": "Nos conocemos con calma. Me cuentas qué te ha animado a consultar, exploramos qué estás experimentando y resolvemos todas tus dudas sobre la forma de trabajar.",
           "group": "proceso"
         },
         "t501": {
@@ -518,11 +518,11 @@ window.SITE_CONTENT = {
           "group": "proceso"
         },
         "t503": {
-          "value": "Llevar los cambios a tu día a día",
+          "value": "Acordamos objetivos y ritmo",
           "group": "proceso"
         },
         "t505": {
-          "value": "El objetivo no es que la terapia se quede en la consulta, sino que puedas notar cambios en la forma en que afrontas tus situaciones cotidianas.",
+          "value": "Definimos de mutuo acuerdo qué metas tienen sentido para ti. No hay un número prefijado de sesiones: ajustamos la frecuencia según tus avances y disponibilidad.",
           "group": "proceso"
         },
         "t511": {
@@ -530,15 +530,15 @@ window.SITE_CONTENT = {
           "group": "proceso"
         },
         "t513": {
-          "value": "Avanzar a tu ritmo",
+          "value": "Revisión y consolidación",
           "group": "proceso"
         },
         "t515": {
-          "value": "Cada proceso es diferente. Iremos revisando juntas lo que necesitas y cómo evoluciona el proceso.",
+          "value": "Hacemos paradas periódicas para evaluar cómo te sientes y consolidar los cambios. Conforme ganas autonomía, espaciamos las sesiones hacia el cierre del proceso.",
           "group": "proceso"
         },
         "t520": {
-          "value": "Cada persona tiene sus propios tiempos. La terapia no es una carrera: es un espacio para avanzar con calma y a tu ritmo.",
+          "value": "\n            Cada persona tiene sus propios tiempos. La terapia no es una carrera lineal; es un espacio seguro donde avanzar, detenerse a reflexionar y retomar con calma.\n          ",
           "group": "proceso"
         },
         "t530": {
@@ -594,15 +594,15 @@ window.SITE_CONTENT = {
           "group": "section"
         },
         "t568": {
-          "value": "Lo importante es que te sientas cómoda con el proceso",
+          "value": "\n              Libertad y confianza\n            ",
           "group": "section"
         },
         "t570": {
-          "value": "La primera sesión también sirve para que tú valores si conectas conmigo y con mi forma de trabajar.",
+          "value": "El primer encuentro sirve también para que tú valores si te sientes a gusto conmigo y si encajo con lo que estás buscando.",
           "group": "section"
         },
         "t572": {
-          "value": "Puedes decidir libremente si quieres continuar.",
+          "value": "La alianza terapéutica requiere conexión y sintonía humana. Tienes total libertad para decidir si deseas continuar o no tras este primer encuentro.",
           "group": "section"
         },
         "t583": {
