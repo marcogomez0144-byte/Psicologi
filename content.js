@@ -118,27 +118,27 @@ window.SITE_CONTENT = {
           "group": "inicio"
         },
         "t105": {
-          "value": "\n              Un espacio para comprender lo que sientes y empezar a cuidarte.\n            ",
+          "value": "¿Sientes que llevas demasiado tiempo intentando estar bien?",
           "group": "inicio"
         },
         "t107": {
-          "value": "\n              Soy ",
+          "value": "A veces sabemos lo que deberíamos hacer, pero aun así nos cuesta parar, poner límites, tomar decisiones o entender qué nos está pasando.",
           "group": "inicio"
         },
         "t108": {
-          "value": "Julia",
+          "value": "Soy Julia, psicóloga sanitaria",
           "group": "inicio"
         },
         "t109": {
-          "value": "",
+          "value": ", y te acompaño a comprender lo que estás viviendo y a desarrollar herramientas para afrontarlo de una forma más consciente y saludable.",
           "group": "inicio"
         },
         "t110": {
-          "value": "Graduada en Psicología y Máster en Psicología General Sanitaria",
+          "value": "",
           "group": "inicio"
         },
         "t111": {
-          "value": ". Te acompaño a explorar lo que estás viviendo y a trabajar en cambios reales que tengan impacto en tu forma de afrontar diversas situaciones de tu vida.",
+          "value": "Un espacio sin juicios, donde puedas hablar de lo que te pasa tal y como es y empezar a construir cambios que realmente tengan sentido para ti.",
           "group": "inicio"
         },
         "t116": {
@@ -206,11 +206,11 @@ window.SITE_CONTENT = {
           "group": "reconocerte"
         },
         "t211": {
-          "value": "Aclaración importante:",
+          "value": "Si no sabes exactamente qué necesitas trabajar, no pasa nada.",
           "group": "reconocerte"
         },
         "t212": {
-          "value": " Estas situaciones describen vivencias humanas frecuentes que atendemos en consulta; en ningún caso constituyen una etiqueta médica ni un diagnóstico psicológico.\n          ",
+          "value": " En la primera sesión podemos explorar qué está ocurriendo y valorar juntas cómo puedo ayudarte.",
           "group": "reconocerte"
         },
         "t222": {
@@ -218,15 +218,15 @@ window.SITE_CONTENT = {
           "group": "General"
         },
         "t232": {
-          "value": "Áreas de Especialización",
+          "value": "Áreas de acompañamiento",
           "group": "especialidades"
         },
         "t234": {
-          "value": "Cómo puedo acompañarte",
+          "value": "¿En qué puedo acompañarte?",
           "group": "especialidades"
         },
         "t236": {
-          "value": "Trabajo desde un marco integrativo basado en la evidencia empírica. Cada proceso se adapta a tu historia y a tus ritmos, sin fórmulas rígidas ni promesas vacías.",
+          "value": "Hay momentos en los que algo no termina de encajar, aunque cueste ponerle nombre. Podemos empezar por entender qué te está pasando y qué necesitas ahora.",
           "group": "especialidades"
         },
         "t243": {
@@ -234,11 +234,11 @@ window.SITE_CONTENT = {
           "group": "especialidades"
         },
         "t245": {
-          "value": "Ansiedad, Estrés y Regulación Somática",
+          "value": "Ansiedad y estrés",
           "group": "especialidades"
         },
         "t247": {
-          "value": "La ansiedad no es un enemigo que haya que erradicar a cualquier precio, sino una señal de alarma de nuestro sistema nervioso que ha aprendido a sobreactivarse.",
+          "value": "Relaciones y límites",
           "group": "especialidades"
         },
         "t252": {
@@ -274,11 +274,11 @@ window.SITE_CONTENT = {
           "group": "especialidades"
         },
         "t277": {
-          "value": "Autoestima, Autocrítica y Vínculo Propio",
+          "value": "Autoestima e inseguridad",
           "group": "especialidades"
         },
         "t279": {
-          "value": "La verdadera autoestima no consiste en repetir afirmaciones positivas frente al espejo, sino en construir una relación honesta, compasiva y sólida con quien eres hoy.",
+          "value": "Perfeccionismo y autoexigencia",
           "group": "especialidades"
         },
         "t284": {
@@ -314,11 +314,11 @@ window.SITE_CONTENT = {
           "group": "especialidades"
         },
         "t309": {
-          "value": "Límites, Asertividad y Dificultades Relacionales",
+          "value": "Gestión emocional",
           "group": "especialidades"
         },
         "t311": {
-          "value": "Las relaciones son el espejo de cómo nos cuidamos y cómo aprendimos a vincularnos con los demás desde nuestras primeras experiencias de apego.",
+          "value": "Dificultades relacionadas con la imagen corporal",
           "group": "especialidades"
         },
         "t316": {
@@ -354,11 +354,11 @@ window.SITE_CONTENT = {
           "group": "especialidades"
         },
         "t341": {
-          "value": "Duelo, Pérdidas y Crisis de Cambio Vital",
+          "value": "Cambios vitales y toma de decisiones",
           "group": "especialidades"
         },
         "t343": {
-          "value": "Afrontar un cambio significativo duele porque importa. Elaborar un duelo no es olvidar lo vivido, sino aprender a colocarlo en un lugar donde no duela permanentemente.",
+          "value": "Procesos de adaptación y momentos de bloqueo",
           "group": "especialidades"
         },
         "t348": {
@@ -394,11 +394,11 @@ window.SITE_CONTENT = {
           "group": "sobre-mi"
         },
         "t403": {
-          "value": "Cercanía humana y rigor científico en cada sesión",
+          "value": "Psicología cercana, rigurosa y sin juicios",
           "group": "sobre-mi"
         },
         "t405": {
-          "value": "\n              Hola, soy ",
+          "value": "Creo en una psicología que no consiste únicamente en hablar de lo que ocurre, sino también en entenderlo, darle un sentido y encontrar nuevas formas de afrontarlo.",
           "group": "sobre-mi"
         },
         "t406": {
@@ -406,11 +406,11 @@ window.SITE_CONTENT = {
           "group": "sobre-mi"
         },
         "t407": {
-          "value": ". Concibo la psicoterapia no como un manual de instrucciones estándar, sino como una alianza de colaboración genuina, donde tú eres la persona experta en tu propia vida y yo pongo a tu servicio mis conocimientos clínicos.\n            ",
+          "value": "Mi forma de trabajar combina cercanía y rigor científico, adaptando el proceso a cada persona y a su momento vital.",
           "group": "sobre-mi"
         },
         "t409": {
-          "value": "\n              En la consulta no encontrarás miradas condescendientes ni juicios de valor. Mi compromiso es ofrecerte un espacio de serenidad, escucha activa y absoluta confidencialidad, donde puedas depositar lo que te preocupa con la certeza de sentirte escuchada y acompañada.\n            ",
+          "value": "En consulta encontrarás un espacio de escucha, seguridad y confidencialidad, donde no tienes que demostrar que estás bien ni tener todas las respuestas.",
           "group": "sobre-mi"
         },
         "t415": {
@@ -458,7 +458,7 @@ window.SITE_CONTENT = {
           "group": "sobre-mi"
         },
         "t442": {
-          "value": "\n              Creo firmemente que la terapia es un proceso vivo: no se trata de encajarte en una teoría, sino de adaptar la psicología a tu realidad y a lo que tú necesitas en este momento.\n            ",
+          "value": "No se trata de cambiar quién eres. Se trata de entenderte mejor y aprender a estar de otra manera contigo misma.",
           "group": "sobre-mi"
         },
         "t445": {
@@ -470,15 +470,15 @@ window.SITE_CONTENT = {
           "group": "General"
         },
         "t468": {
-          "value": "Tu proceso",
+          "value": "Cómo trabajamos",
           "group": "proceso"
         },
         "t470": {
-          "value": "Tu proceso, paso a paso",
+          "value": "Cómo trabajamos",
           "group": "proceso"
         },
         "t472": {
-          "value": "Desde el primer contacto hasta que te sientas con más recursos, sabrás qué esperar en cada momento. Sin prisas, sin exigencias y adaptándonos a ti.",
+          "value": "Un proceso adaptado a ti, con una dirección clara y herramientas que puedas llevar a tu día a día.",
           "group": "proceso"
         },
         "t479": {
@@ -486,11 +486,11 @@ window.SITE_CONTENT = {
           "group": "proceso"
         },
         "t481": {
-          "value": "Primer contacto",
+          "value": "Entender qué te está pasando",
           "group": "proceso"
         },
         "t483": {
-          "value": "Puedes escribir para preguntar cualquier duda o reservar una primera cita. No necesitas tener claro qué decir ni explicar todo desde el principio.",
+          "value": "Antes de buscar soluciones, necesitamos comprender qué estás viviendo, qué lo mantiene y qué necesitas.",
           "group": "proceso"
         },
         "t484": {
@@ -506,11 +506,11 @@ window.SITE_CONTENT = {
           "group": "proceso"
         },
         "t493": {
-          "value": "Primera sesión",
+          "value": "Encontrar herramientas que te sirvan",
           "group": "proceso"
         },
         "t495": {
-          "value": "Nos conocemos con calma y hablamos sobre lo que te está preocupando. Mi objetivo es que puedas sentirte escuchada y cómoda, sin juicios ni interrogatorios. La sesión dura aproximadamente 50–60 minutos y no necesitas preparar nada.",
+          "value": "Trabajaremos con estrategias basadas en evidencia y adaptadas a tu situación, no con fórmulas universales.",
           "group": "proceso"
         },
         "t501": {
@@ -518,11 +518,11 @@ window.SITE_CONTENT = {
           "group": "proceso"
         },
         "t503": {
-          "value": "Marcamos juntos el camino",
+          "value": "Llevar los cambios a tu día a día",
           "group": "proceso"
         },
         "t505": {
-          "value": "A partir de lo que vayamos viendo, acordamos qué te gustaría trabajar y el ritmo que tenga sentido para ti. No existe un número fijo de sesiones ni un proceso igual para todo el mundo.",
+          "value": "El objetivo no es que la terapia se quede en la consulta, sino que puedas notar cambios en la forma en que afrontas tus situaciones cotidianas.",
           "group": "proceso"
         },
         "t511": {
@@ -530,11 +530,11 @@ window.SITE_CONTENT = {
           "group": "proceso"
         },
         "t513": {
-          "value": "Avanzamos a tu ritmo",
+          "value": "Avanzar a tu ritmo",
           "group": "proceso"
         },
         "t515": {
-          "value": "Iremos revisando cómo te encuentras, qué está cambiando y qué necesitas en cada momento. A medida que ganes herramientas y seguridad, podremos espaciar las sesiones hasta que sientas que puedes continuar con mayor autonomía.",
+          "value": "Cada proceso es diferente. Iremos revisando juntas lo que necesitas y cómo evoluciona el proceso.",
           "group": "proceso"
         },
         "t520": {
