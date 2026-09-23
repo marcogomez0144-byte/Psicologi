@@ -162,39 +162,39 @@ window.SITE_CONTENT = {
           "group": "General"
         },
         "t153": {
-          "value": "Punto de Partida",
+          "value": "Quizá te reconoces",
           "group": "reconocerte"
         },
         "t155": {
-          "value": "Quizá te reconoces en esto",
+          "value": "Hay momentos en los que no es fácil sostenerlo todo",
           "group": "reconocerte"
         },
         "t157": {
-          "value": "A veces no sabemos nombrar con exactitud lo que nos ocurre, pero sí sentimos que algo nos pesa o nos sobrepasa en el día a día.",
+          "value": "No necesitas encajar en una etiqueta para pedir ayuda. A veces basta con notar que algo te está desgastando, bloqueando o alejando de cómo quieres sentirte.",
           "group": "reconocerte"
         },
         "t167": {
-          "value": "Preocupación constante y sobrecarga mental",
+          "value": "Ansiedad, presión y autoexigencia",
           "group": "reconocerte"
         },
         "t169": {
-          "value": "Sientes que tu cabeza no descansa, anticipando problemas futuros o revisando mentalmente cada detalle. Una sensación continua de alerta interna y tensión en el cuerpo que dificulta desconectar y descansar.",
+          "value": "Cuando la cabeza no para, sientes que tienes que rendir siempre o un error pesa demasiado. Puede aparecer, por ejemplo, en deportistas ante la competición, una lesión o la vuelta al rendimiento, y en mujeres que viven con un nivel de exigencia constante.",
           "group": "reconocerte"
         },
         "t178": {
-          "value": "Dificultad para poner límites",
+          "value": "Autoestima, cuerpo y enfermedad crónica",
           "group": "reconocerte"
         },
         "t180": {
-          "value": "Tiendes a priorizar el bienestar de los demás por encima de tus propias necesidades. Decir no te genera culpa o miedo al conflicto, lo que poco a poco te lleva al agotamiento emocional y al resentimiento.",
+          "value": "Vivir con una enfermedad visible como la psoriasis puede influir en cómo te miras, te relacionas o afrontas los brotes y la exposición social. También podemos trabajar la inseguridad corporal, la vergüenza, la evitación y el impacto emocional que todo esto puede tener en tu día a día.",
           "group": "reconocerte"
         },
         "t189": {
-          "value": "Transición vital, pérdidas o cambios inesperados y tu propia identidad",
+          "value": "Cambios, límites e identidad",
           "group": "reconocerte"
         },
         "t191": {
-          "value": "Una ruptura sentimental, un cambio laboral, una pérdida significativa o simplemente la sensación de que la etapa vital en la que estabas ya no encaja contigo y necesitas redescubrir quién eres ahora.",
+          "value": "Hay etapas en las que cuesta saber qué necesitas o quién eres fuera de ciertos roles. Puede ocurrir tras una ruptura, un cambio vital, una lesión deportiva, dejar de competir o al adaptarte a una enfermedad crónica. Trabajamos para recuperar dirección y relacionarte contigo desde un lugar más amable.",
           "group": "reconocerte"
         },
         "t200": {
