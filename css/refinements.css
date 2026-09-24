@@ -1324,3 +1324,241 @@ h1,h2,h3,.brand-name,.hero-title,.hero-profile-card h2{
     justify-content:center;
   }
 }
+
+
+/* =========================================================
+   PROGRAMA PSORIASIS · ÁREA DIFERENCIAL
+   ========================================================= */
+.nav-link-program{
+  color:#9a543d!important;
+}
+
+.specialty-program-link{
+  margin-top:18px;
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  color:#9d5942;
+  font-size:.84rem;
+  font-weight:700;
+  text-decoration:none;
+}
+.specialty-program-link .icon{width:15px;height:15px}
+.specialty-program-link:hover{text-decoration:underline}
+
+.psoriasis-section{
+  background:linear-gradient(180deg,#f4f6f1 0%,#fbfaf7 100%);
+  position:relative;
+  overflow:hidden;
+}
+.psoriasis-section::before{
+  content:"";
+  position:absolute;
+  width:420px;
+  height:420px;
+  right:-180px;
+  top:-180px;
+  border-radius:999px;
+  background:rgba(181,110,78,.055);
+}
+.psoriasis-shell{
+  position:relative;
+  display:grid;
+  grid-template-columns:minmax(0,1.25fr) minmax(300px,.75fr);
+  gap:42px;
+  align-items:center;
+}
+.psoriasis-intro{
+  max-width:760px;
+}
+.psoriasis-tag{
+  background:#fbede7!important;
+  color:#9d5942!important;
+  border-color:rgba(181,110,78,.22)!important;
+}
+.psoriasis-overline{
+  margin:18px 0 8px;
+  color:#526b59;
+  font-size:.76rem;
+  font-weight:750;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+}
+.psoriasis-intro h2{
+  max-width:760px;
+  margin:0 0 18px;
+  font-size:clamp(2.45rem,4vw,4.1rem);
+  line-height:1.02;
+  letter-spacing:-.035em;
+}
+.psoriasis-lead{
+  max-width:68ch;
+  font-size:1.08rem;
+  line-height:1.75;
+  color:#3f4e45;
+}
+.psoriasis-intro>p:not(.psoriasis-overline):not(.psoriasis-lead){
+  max-width:68ch;
+  color:#5d6861;
+  line-height:1.75;
+}
+.psoriasis-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:25px;
+}
+.psoriasis-soft-link{
+  background:transparent!important;
+}
+.psoriasis-principle{
+  padding:28px;
+  border:1px solid rgba(82,107,89,.16);
+  border-radius:24px;
+  background:rgba(255,255,255,.84);
+  box-shadow:0 16px 45px rgba(31,45,36,.055);
+}
+.psoriasis-principle-icon{
+  width:48px;
+  height:48px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-bottom:20px;
+  border-radius:15px;
+  background:#fbede7;
+  color:#a55f46;
+}
+.psoriasis-principle-icon .icon{width:22px;height:22px}
+.psoriasis-principle-kicker{
+  margin:0 0 7px;
+  color:#9d5942;
+  font-size:.75rem;
+  font-weight:750;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+.psoriasis-principle h3{
+  margin:0 0 12px;
+  font-size:1.65rem;
+  line-height:1.15;
+}
+.psoriasis-principle p:last-child{
+  margin:0;
+  color:#5c675f;
+  line-height:1.68;
+}
+.psoriasis-areas{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:14px;
+  margin-top:46px;
+}
+.psoriasis-area-card{
+  padding:22px;
+  border:1px solid rgba(82,107,89,.13);
+  border-radius:18px;
+  background:#fff;
+}
+.psoriasis-area-card>span{
+  display:inline-flex;
+  width:32px;
+  height:32px;
+  align-items:center;
+  justify-content:center;
+  margin-bottom:16px;
+  border-radius:999px;
+  background:#edf2ed;
+  color:#526b59;
+  font-size:.72rem;
+  font-weight:750;
+}
+.psoriasis-area-card h3{
+  margin:0 0 9px;
+  font-family:var(--font-ui)!important;
+  font-size:1rem;
+  line-height:1.3;
+}
+.psoriasis-area-card p{
+  margin:0;
+  color:#657069;
+  font-size:.9rem;
+  line-height:1.62;
+}
+.psoriasis-evidence-note{
+  max-width:980px;
+  margin:24px auto 0;
+  display:flex;
+  align-items:flex-start;
+  gap:12px;
+  padding:16px 19px;
+  border-radius:15px;
+  background:rgba(255,255,255,.68);
+  color:#5c675f;
+}
+.psoriasis-evidence-note .icon{
+  width:18px;height:18px;flex:0 0 18px;margin-top:3px;color:#526b59
+}
+.psoriasis-evidence-note p{margin:0;line-height:1.6;font-size:.88rem}
+
+/* =========================================================
+   SERVICIOS · 3 OPCIONES
+   ========================================================= */
+.services-three-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:18px;
+  align-items:stretch;
+  margin-top:38px;
+}
+.services-three-grid .service-card{
+  display:flex;
+  flex-direction:column;
+  min-width:0;
+}
+.psoriasis-service-card{
+  border-color:rgba(181,110,78,.25)!important;
+  background:linear-gradient(180deg,#fff,#fdf8f4)!important;
+}
+.psoriasis-service-badge{
+  background:#fbede7!important;
+  color:#9d5942!important;
+}
+.psoriasis-service-focus{
+  display:flex;
+  flex-direction:column;
+  gap:5px;
+  margin:22px 0 20px;
+  padding:14px 15px;
+  border-radius:14px;
+  background:#fbf2ed;
+  color:#6b5a53;
+  font-size:.84rem;
+  line-height:1.5;
+}
+.psoriasis-service-focus strong{color:#9d5942}
+.compact-features{
+  gap:12px!important;
+}
+.service-double-action{
+  margin-top:auto;
+  display:grid;
+  grid-template-columns:1fr;
+  gap:9px;
+}
+.service-double-action .btn{
+  width:100%;
+  justify-content:center;
+}
+
+@media(max-width:1050px){
+  .psoriasis-shell{grid-template-columns:1fr}
+  .psoriasis-principle{max-width:720px}
+  .psoriasis-areas{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .services-three-grid{grid-template-columns:1fr}
+}
+@media(max-width:680px){
+  .psoriasis-areas{grid-template-columns:1fr}
+  .psoriasis-intro h2{font-size:2.55rem}
+  .psoriasis-actions .btn{width:100%;justify-content:center}
+}
