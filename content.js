@@ -118,7 +118,7 @@ window.SITE_CONTENT = {
           "group": "inicio"
         },
         "t105": {
-          "value": "\n              Un espacio para comprender lo que sientes y empezar a cuidarte.\n            ",
+          "value": "¿Sientes que llevas demasiado tiempo intentando estar bien?",
           "group": "inicio"
         },
         "t107": {
@@ -126,11 +126,11 @@ window.SITE_CONTENT = {
           "group": "inicio"
         },
         "t108": {
-          "value": "Julia",
+          "value": "Julia Gil-Ortega · Psicóloga General Sanitaria",
           "group": "inicio"
         },
         "t109": {
-          "value": "",
+          "value": "Te acompaño a comprender qué te está pasando, poner palabras a lo que pesa y desarrollar herramientas para afrontar tu día a día con más claridad y seguridad.",
           "group": "inicio"
         },
         "t110": {
@@ -138,7 +138,7 @@ window.SITE_CONTENT = {
           "group": "inicio"
         },
         "t111": {
-          "value": ". Te acompaño a explorar lo que estás viviendo y a trabajar en cambios reales que tengan impacto en tu forma de afrontar diversas situaciones de tu vida.",
+          "value": "Sin juicios, sin fórmulas rígidas y con un proceso adaptado a tu momento vital.",
           "group": "inicio"
         },
         "t116": {
