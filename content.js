@@ -206,11 +206,11 @@ window.SITE_CONTENT = {
           "group": "reconocerte"
         },
         "t211": {
-          "value": "Aclaración importante:",
+          "value": "Si no sabes exactamente qué necesitas trabajar, no pasa nada.",
           "group": "reconocerte"
         },
         "t212": {
-          "value": " Estas situaciones describen vivencias humanas frecuentes que atendemos en consulta; en ningún caso constituyen una etiqueta médica ni un diagnóstico psicológico.\n          ",
+          "value": " La primera sesión también sirve para entender qué está ocurriendo y valorar juntas cómo puedo ayudarte.",
           "group": "reconocerte"
         },
         "t222": {
@@ -218,15 +218,15 @@ window.SITE_CONTENT = {
           "group": "General"
         },
         "t232": {
-          "value": "Áreas de Especialización",
+          "value": "Áreas de acompañamiento",
           "group": "especialidades"
         },
         "t234": {
-          "value": "Cómo puedo acompañarte",
+          "value": "¿En qué puedo acompañarte?",
           "group": "especialidades"
         },
         "t236": {
-          "value": "Trabajo desde un marco integrativo basado en la evidencia empírica. Cada proceso se adapta a tu historia y a tus ritmos, sin fórmulas rígidas ni promesas vacías.",
+          "value": "No necesitas saber exactamente qué te pasa para empezar. Podemos explorar juntas qué está ocurriendo y trabajar sobre aquello que hoy te está generando más malestar.",
           "group": "especialidades"
         },
         "t243": {
@@ -234,11 +234,11 @@ window.SITE_CONTENT = {
           "group": "especialidades"
         },
         "t245": {
-          "value": "Ansiedad, Estrés y Regulación Somática",
+          "value": "Ansiedad, estrés y autoexigencia",
           "group": "especialidades"
         },
         "t247": {
-          "value": "La ansiedad no es un enemigo que haya que erradicar a cualquier precio, sino una señal de alarma de nuestro sistema nervioso que ha aprendido a sobreactivarse.",
+          "value": "Cuando sientes que tu cabeza no para, te cuesta desconectar o vives con la sensación de tener que rendir siempre. También puede aparecer en deportistas ante la competición, una lesión o la vuelta al rendimiento.",
           "group": "especialidades"
         },
         "t252": {
@@ -274,11 +274,11 @@ window.SITE_CONTENT = {
           "group": "especialidades"
         },
         "t277": {
-          "value": "Autoestima, Autocrítica y Vínculo Propio",
+          "value": "Autoestima, imagen corporal y enfermedad crónica",
           "group": "especialidades"
         },
         "t279": {
-          "value": "La verdadera autoestima no consiste en repetir afirmaciones positivas frente al espejo, sino en construir una relación honesta, compasiva y sólida con quien eres hoy.",
+          "value": "Trabajamos la inseguridad, la relación con tu cuerpo y el impacto emocional de convivir con una enfermedad crónica o visible, como la psoriasis: vergüenza, evitación, miedo a las miradas o dificultad para sentirte cómoda contigo misma.",
           "group": "especialidades"
         },
         "t284": {
@@ -314,11 +314,11 @@ window.SITE_CONTENT = {
           "group": "especialidades"
         },
         "t309": {
-          "value": "Límites, Asertividad y Dificultades Relacionales",
+          "value": "Relaciones, límites y gestión emocional",
           "group": "especialidades"
         },
         "t311": {
-          "value": "Las relaciones son el espejo de cómo nos cuidamos y cómo aprendimos a vincularnos con los demás desde nuestras primeras experiencias de apego.",
+          "value": "Si te cuesta decir que no, priorizarte o expresar lo que necesitas sin culpa. Podemos trabajar la forma en que te relacionas contigo y con los demás, aprendiendo a poner límites de una manera más segura y respetuosa.",
           "group": "especialidades"
         },
         "t316": {
@@ -354,11 +354,11 @@ window.SITE_CONTENT = {
           "group": "especialidades"
         },
         "t341": {
-          "value": "Duelo, Pérdidas y Crisis de Cambio Vital",
+          "value": "Cambios vitales, identidad y momentos de bloqueo",
           "group": "especialidades"
         },
         "t343": {
-          "value": "Afrontar un cambio significativo duele porque importa. Elaborar un duelo no es olvidar lo vivido, sino aprender a colocarlo en un lugar donde no duela permanentemente.",
+          "value": "Rupturas, decisiones importantes, cambios de etapa, lesiones, dejar de competir o sentir que ya no sabes muy bien hacia dónde ir. Un espacio para entender qué necesitas y recuperar dirección sin exigirte tener todas las respuestas.",
           "group": "especialidades"
         },
         "t348": {
