@@ -606,59 +606,59 @@ window.SITE_CONTENT = {
           "group": "section"
         },
         "t583": {
-          "value": "Transparencia Económica",
+          "value": "Cómo puedes empezar",
           "group": "tarifas"
         },
         "t585": {
-          "value": "Modalidades y tarifas",
+          "value": "Terapia online y talleres",
           "group": "tarifas"
         },
         "t587": {
-          "value": "Tarifas claras, sin costes ocultos ni paquetes forzados. Puedes elegir la modalidad que mejor se adapte a tu estilo de vida.",
+          "value": "Dos formatos diferentes para acompañarte según lo que necesites: un espacio individual para trabajar en profundidad o talleres prácticos centrados en temas concretos.",
           "group": "tarifas"
         },
         "t594": {
-          "value": "Máxima comodidad",
+          "value": "Atención individual",
           "group": "tarifas"
         },
         "t596": {
-          "value": "Terapia Online",
+          "value": "Terapia online",
           "group": "tarifas"
         },
         "t598": {
-          "value": "Atención psicológica por videoconsulta confidencial y segura desde el lugar donde te encuentres.",
+          "value": "Un espacio individual, confidencial y cercano para comprender lo que estás viviendo y trabajar cambios adaptados a ti.",
           "group": "tarifas"
         },
         "t601": {
-          "value": "[65 €]",
+          "value": "65 €",
           "group": "tarifas"
         },
         "t603": {
-          "value": "/ sesión individual (55-60 min)",
+          "value": "/ sesión individual (55–60 min)",
           "group": "tarifas"
         },
         "t609": {
-          "value": "Plataforma sanitaria segura cifrada de extremo a extremo (sin instalar programas complejos).",
+          "value": "Videoconsulta desde el lugar en el que te sientas cómoda y con privacidad.",
           "group": "tarifas"
         },
         "t614": {
-          "value": "Sin tiempos ni costes de desplazamiento.",
+          "value": "Un entorno seguro y confidencial, con atención profesional y personalizada.",
           "group": "tarifas"
         },
         "t619": {
-          "value": "Requisitos:",
+          "value": "A tu ritmo:",
           "group": "tarifas"
         },
         "t620": {
-          "value": " Dispositivo con cámara, conexión estable y un lugar privado donde no te interrumpan.",
+          "value": " objetivos y frecuencia adaptados a tu situación y momento vital.",
           "group": "tarifas"
         },
         "t625": {
-          "value": "Idiomas: ",
+          "value": "Idioma: ",
           "group": "tarifas"
         },
         "t626": {
-          "value": "[Español]",
+          "value": "Español",
           "group": "tarifas"
         },
         "t630": {
@@ -666,15 +666,15 @@ window.SITE_CONTENT = {
           "group": "tarifas"
         },
         "t636": {
-          "value": "",
+          "value": "Espacios grupales",
           "group": "tarifas"
         },
         "t638": {
-          "value": "",
+          "value": "Talleres",
           "group": "tarifas"
         },
         "t640": {
-          "value": "Un entorno cálido, luminoso y protegido en el centro de ",
+          "value": "Encuentros prácticos en grupos reducidos para comprender mejor determinados temas, compartir experiencias y llevarte herramientas aplicables a tu día a día.",
           "group": "tarifas"
         },
         "t641": {
@@ -686,15 +686,15 @@ window.SITE_CONTENT = {
           "group": "tarifas"
         },
         "t645": {
-          "value": "[70 €]",
+          "value": "Próximos talleres",
           "group": "tarifas"
         },
         "t647": {
-          "value": "/ sesión individual (55-60 min)",
+          "value": "Fechas y plazas según convocatoria",
           "group": "tarifas"
         },
         "t653": {
-          "value": "Dirección:",
+          "value": "Ansiedad, estrés, autoestima y autoexigencia.",
           "group": "tarifas"
         },
         "t655": {
@@ -702,7 +702,7 @@ window.SITE_CONTENT = {
           "group": "tarifas"
         },
         "t660": {
-          "value": "Accesibilidad:",
+          "value": "Imagen corporal, bienestar emocional y relación contigo misma.",
           "group": "tarifas"
         },
         "t661": {
@@ -710,7 +710,7 @@ window.SITE_CONTENT = {
           "group": "tarifas"
         },
         "t666": {
-          "value": "Transporte cercano:",
+          "value": "Deporte, presión, lesión y vuelta al rendimiento.",
           "group": "tarifas"
         },
         "t667": {
@@ -734,7 +734,7 @@ window.SITE_CONTENT = {
           "group": "tarifas"
         },
         "t676": {
-          "value": "Edades atendidas: ",
+          "value": "Convivir con enfermedad crónica y visible, incluida la psoriasis.",
           "group": "tarifas"
         },
         "t677": {
@@ -742,7 +742,7 @@ window.SITE_CONTENT = {
           "group": "tarifas"
         },
         "t681": {
-          "value": "Reservar sesión presencial",
+          "value": "Consultar próximos talleres",
           "group": "tarifas"
         },
         "t689": {
