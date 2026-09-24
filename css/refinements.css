@@ -1147,3 +1147,180 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #b5
     padding:18px;
   }
 }
+
+
+/* =========================================================
+   HERO PROFESIONAL · TIPOGRAFÍA Y COMPOSICIÓN
+   ========================================================= */
+
+:root{
+  --font-display:"Newsreader", Georgia, serif;
+  --font-ui:"Manrope", Arial, sans-serif;
+}
+
+body{
+  font-family:var(--font-ui)!important;
+  letter-spacing:-.01em;
+}
+
+h1,h2,h3,.brand-name,.hero-title,.hero-profile-card h2{
+  font-family:var(--font-display)!important;
+}
+
+.site-nav,
+.btn,
+.section-tag,
+.hero-kicker,
+.hero-badge,
+.hero-trust-item,
+.profile-credential{
+  font-family:var(--font-ui)!important;
+}
+
+/* Alinea la columna izquierda más arriba con la fotografía */
+.hero-unified-grid{
+  align-items:start!important;
+}
+
+.hero-unified-copy{
+  position:relative;
+  transform:translateY(-34px);
+  padding-top:0!important;
+  max-width:670px;
+}
+
+.hero-unified-copy .hero-badges-wrapper{
+  margin-bottom:20px!important;
+}
+
+.hero-kicker{
+  margin:0 0 15px!important;
+  color:#41584a!important;
+  font-size:.78rem!important;
+  font-weight:700!important;
+  letter-spacing:.16em!important;
+  line-height:1.3!important;
+}
+
+.hero-unified-copy .hero-title{
+  max-width:680px;
+  margin:0!important;
+  font-size:clamp(3.45rem,5vw,5.7rem)!important;
+  line-height:.94!important;
+  letter-spacing:-.045em!important;
+  font-weight:600!important;
+  text-wrap:balance;
+}
+
+.hero-professional-intro{
+  max-width:625px;
+  margin-top:28px;
+}
+
+.hero-professional-intro p{
+  margin:0;
+}
+
+.hero-professional-name{
+  display:inline-block;
+  margin-bottom:12px!important;
+  color:#213129;
+  font-size:1rem;
+  font-weight:700;
+  letter-spacing:-.015em;
+}
+
+.hero-professional-copy{
+  max-width:60ch;
+  color:#4f5d54;
+  font-size:1.03rem;
+  line-height:1.72;
+}
+
+.hero-professional-note{
+  margin-top:10px!important;
+  color:#6d756f;
+  font-size:.92rem;
+  line-height:1.55;
+}
+
+.hero-unified-ctas{
+  margin-top:26px!important;
+  gap:14px!important;
+}
+
+.hero-unified-ctas .btn-primary{
+  min-height:52px;
+  padding:14px 24px!important;
+  border-radius:14px!important;
+  box-shadow:0 10px 26px rgba(181,110,78,.18)!important;
+}
+
+.hero-link-clean{
+  min-height:52px;
+  padding:14px 17px!important;
+  border-color:transparent!important;
+  background:transparent!important;
+  box-shadow:none!important;
+}
+
+.hero-link-clean:hover{
+  background:rgba(82,107,89,.055)!important;
+}
+
+.hero-trust-row{
+  margin-top:22px!important;
+  gap:12px!important;
+}
+
+.hero-trust-item{
+  border-radius:16px!important;
+  background:rgba(255,255,255,.82)!important;
+  box-shadow:none!important;
+}
+
+.hero-profile-column{
+  padding-top:0!important;
+}
+
+.hero-profile-photo{
+  box-shadow:0 22px 60px rgba(31,45,36,.08)!important;
+}
+
+/* La tarjeta de presentación se integra mejor con la foto */
+.hero-profile-card{
+  border-radius:22px!important;
+  box-shadow:0 20px 55px rgba(31,45,36,.10)!important;
+  border:1px solid rgba(82,107,89,.12)!important;
+}
+
+.hero-profile-card h2{
+  font-weight:600!important;
+  letter-spacing:-.028em!important;
+}
+
+@media(max-width:1100px){
+  .hero-unified-copy{
+    transform:none;
+  }
+  .hero-unified-copy .hero-title{
+    font-size:clamp(3rem,6.6vw,4.8rem)!important;
+  }
+}
+
+@media(max-width:760px){
+  .hero-unified-copy .hero-title{
+    font-size:clamp(2.7rem,12vw,4rem)!important;
+    line-height:.98!important;
+  }
+  .hero-professional-copy{
+    font-size:.98rem;
+  }
+  .hero-unified-ctas{
+    align-items:stretch!important;
+  }
+  .hero-unified-ctas .btn{
+    width:100%;
+    justify-content:center;
+  }
+}
