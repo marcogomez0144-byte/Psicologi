@@ -278,7 +278,7 @@ window.SITE_CONTENT = {
           "group": "especialidades"
         },
         "t279": {
-          "value": "Trabajamos la inseguridad, la relación con tu cuerpo y el impacto emocional de convivir con una enfermedad crónica o visible, como la psoriasis: vergüenza, evitación, miedo a las miradas o dificultad para sentirte cómoda contigo misma.",
+          "value": "La forma en que te ves, te relacionas con tu cuerpo o afrontas una enfermedad visible también puede afectar a tu bienestar psicológico. En el caso de la psoriasis, trabajo de forma específica su impacto emocional y social.",
           "group": "especialidades"
         },
         "t284": {
@@ -610,11 +610,11 @@ window.SITE_CONTENT = {
           "group": "tarifas"
         },
         "t585": {
-          "value": "Terapia online y talleres",
+          "value": "Servicios y formas de acompañamiento",
           "group": "tarifas"
         },
         "t587": {
-          "value": "Dos formatos diferentes para acompañarte según lo que necesites: un espacio individual para trabajar en profundidad o talleres prácticos centrados en temas concretos.",
+          "value": "La consulta sigue siendo un espacio de psicología sanitaria amplio. Puedes empezar con terapia individual, conocer el programa específico para psoriasis o consultar los próximos talleres.",
           "group": "tarifas"
         },
         "t594": {
@@ -674,7 +674,7 @@ window.SITE_CONTENT = {
           "group": "tarifas"
         },
         "t640": {
-          "value": "Encuentros prácticos en grupos reducidos para comprender mejor determinados temas, compartir experiencias y llevarte herramientas aplicables a tu día a día.",
+          "value": "Encuentros prácticos en grupos reducidos para profundizar en temas concretos y llevarte herramientas aplicables a tu día a día.",
           "group": "tarifas"
         },
         "t641": {
