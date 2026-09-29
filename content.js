@@ -402,7 +402,7 @@ window.SITE_CONTENT = {
           "group": "sobre-mi"
         },
         "t406": {
-          "value": "[NOMBRE]",
+          "value": "Julia Gil-Ortega",
           "group": "sobre-mi"
         },
         "t407": {
@@ -430,7 +430,7 @@ window.SITE_CONTENT = {
           "group": "sobre-mi"
         },
         "t424": {
-          "value": "[Nº COLEGIADA]",
+          "value": "M-44459",
           "group": "sobre-mi"
         },
         "t425": {
@@ -1058,7 +1058,7 @@ window.SITE_CONTENT = {
     "legal/aviso-legal.html": {
       "texts": {
         "t4": {
-          "value": "[NOMBRE]",
+          "value": "Julia Gil-Ortega",
           "group": "site-header"
         },
         "t6": {
@@ -1090,7 +1090,7 @@ window.SITE_CONTENT = {
           "group": "General"
         },
         "t27": {
-          "value": "[NOMBRE Y APELLIDOS COMPLETOS]",
+          "value": "Julia Gil-Ortega",
           "group": "General"
         },
         "t29": {
@@ -1130,7 +1130,7 @@ window.SITE_CONTENT = {
           "group": "General"
         },
         "t47": {
-          "value": "[Nº COLEGIADA: EJ. M-XXXXX]",
+          "value": "M-44459",
           "group": "General"
         },
         "t49": {
@@ -1154,7 +1154,7 @@ window.SITE_CONTENT = {
           "group": "General"
         },
         "t59": {
-          "value": "[contacto@tudominio.com]",
+          "value": "juliagilortega7@gmail.com",
           "group": "General"
         },
         "t61": {
@@ -1162,7 +1162,7 @@ window.SITE_CONTENT = {
           "group": "General"
         },
         "t63": {
-          "value": "[+34 XXX XX XX XX]",
+          "value": "+34 620 214 973",
           "group": "General"
         },
         "t67": {
@@ -1234,7 +1234,7 @@ window.SITE_CONTENT = {
           "group": "General"
         },
         "t90": {
-          "value": "[NOMBRE]",
+          "value": "Julia Gil-Ortega",
           "group": "General"
         },
         "t91": {
@@ -1258,7 +1258,7 @@ window.SITE_CONTENT = {
           "group": "General"
         },
         "t103": {
-          "value": "© 2026 [NOMBRE] · Psicóloga Colegiada en [CIUDAD] · Todos los derechos reservados.",
+          "value": "© 2026 Julia Gil-Ortega · Psicóloga Colegiada en [CIUDAD] · Todos los derechos reservados.",
           "group": "site-footer"
         }
       },
@@ -1266,7 +1266,7 @@ window.SITE_CONTENT = {
       "links": {
         "l0": {
           "href": "../index.html",
-          "label": "[NOMBRE] Psicología Sanitaria · [CIUDAD]"
+          "label": "Julia Gil-Ortega Psicología Sanitaria · [CIUDAD]"
         },
         "l1": {
           "href": "../index.html",
@@ -1277,7 +1277,7 @@ window.SITE_CONTENT = {
     "legal/privacidad.html": {
       "texts": {
         "t4": {
-          "value": "[NOMBRE]",
+          "value": "Julia Gil-Ortega",
           "group": "site-header"
         },
         "t6": {
@@ -1309,7 +1309,7 @@ window.SITE_CONTENT = {
           "group": "General"
         },
         "t26": {
-          "value": "[NOMBRE Y APELLIDOS DE LA PSICÓLOGA]",
+          "value": "Julia Gil-Ortega",
           "group": "General"
         },
         "t28": {
@@ -1317,7 +1317,7 @@ window.SITE_CONTENT = {
           "group": "General"
         },
         "t30": {
-          "value": "[Nº COLEGIADA]",
+          "value": "M-44459",
           "group": "General"
         },
         "t32": {
@@ -1341,7 +1341,7 @@ window.SITE_CONTENT = {
           "group": "General"
         },
         "t42": {
-          "value": "[privacidad@tudominio.com]",
+          "value": "juliagilortega7@gmail.com",
           "group": "General"
         },
         "t45": {
@@ -1445,7 +1445,7 @@ window.SITE_CONTENT = {
           "group": "General"
         },
         "t87": {
-          "value": "[privacidad@tudominio.com]",
+          "value": "juliagilortega7@gmail.com",
           "group": "General"
         },
         "t88": {
@@ -1461,7 +1461,7 @@ window.SITE_CONTENT = {
           "group": "General"
         },
         "t96": {
-          "value": "© 2026 [NOMBRE] · Psicóloga Sanitaria en [CIUDAD]",
+          "value": "© 2026 Julia Gil-Ortega · Psicóloga Sanitaria en [CIUDAD]",
           "group": "site-footer"
         }
       },
@@ -1469,7 +1469,7 @@ window.SITE_CONTENT = {
       "links": {
         "l0": {
           "href": "../index.html",
-          "label": "[NOMBRE] Psicología Sanitaria · [CIUDAD]"
+          "label": "Julia Gil-Ortega Psicología Sanitaria · [CIUDAD]"
         },
         "l1": {
           "href": "../index.html",
@@ -1484,7 +1484,7 @@ window.SITE_CONTENT = {
     "legal/cookies.html": {
       "texts": {
         "t4": {
-          "value": "[NOMBRE]",
+          "value": "Julia Gil-Ortega",
           "group": "Almacenamiento y servicios"
         },
         "t6": {
@@ -1504,11 +1504,11 @@ window.SITE_CONTENT = {
           "group": "Almacenamiento y servicios"
         },
         "t15": {
-          "value": "Editor de contenidos",
+          "value": "Almacenamiento local",
           "group": "Almacenamiento y servicios"
         },
         "t16": {
-          "value": "Cuando utilizas el editor y guardas un borrador, el navegador conserva los cambios en almacenamiento local con la clave psico-draft-v1. Se mantienen hasta que los descartas desde el editor o borras los datos del sitio. No se usan para seguir a los visitantes.",
+          "value": "La web pública no utiliza almacenamiento local para perfilar ni seguir a los visitantes. La vista previa privada de desarrollo puede usar almacenamiento local únicamente en el navegador de la profesional.",
           "group": "Almacenamiento y servicios"
         },
         "t17": {
@@ -1516,7 +1516,7 @@ window.SITE_CONTENT = {
           "group": "Almacenamiento y servicios"
         },
         "t18": {
-          "value": "Las imágenes incluidas en el proyecto se sirven desde esta web. Si se configuran imágenes alojadas en otros servicios, el navegador las solicitará a esos proveedores. Los enlaces de WhatsApp, correo o agenda externa solo se abren cuando los seleccionas.",
+          "value": "Las imágenes se sirven desde esta web o se incluyen de forma embebida. Los enlaces de WhatsApp, correo o agenda externa solo se abren cuando los seleccionas.",
           "group": "Almacenamiento y servicios"
         },
         "t19": {
@@ -1532,7 +1532,7 @@ window.SITE_CONTENT = {
           "group": "Almacenamiento y servicios"
         },
         "t25": {
-          "value": "© 2026 [NOMBRE] · Psicología Sanitaria en [CIUDAD]",
+          "value": "© 2026 Julia Gil-Ortega · Psicología Sanitaria en [CIUDAD]",
           "group": "Almacenamiento y servicios"
         }
       },
@@ -1540,7 +1540,7 @@ window.SITE_CONTENT = {
       "links": {
         "l0": {
           "href": "../index.html",
-          "label": "[NOMBRE] Psicología Sanitaria · [CIUDAD]"
+          "label": "Julia Gil-Ortega Psicología Sanitaria · [CIUDAD]"
         },
         "l1": {
           "href": "../index.html",
@@ -1555,4 +1555,3 @@ window.SITE_CONTENT = {
   },
   "articles": []
 };
-
