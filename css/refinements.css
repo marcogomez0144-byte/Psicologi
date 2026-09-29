@@ -1974,3 +1974,163 @@ body{
   }
 }
 
+
+/* =========================================================
+   PALETA FINAL · BEIGE + VERDE OSCURO + TURQUESA
+   (sobrescribe la propuesta rosa anterior)
+   ========================================================= */
+:root{
+  --brand-beige:#F3EEE6;
+  --brand-beige-soft:#FBF8F3;
+  --brand-beige-deep:#E9E0D4;
+  --brand-green:#173F35;
+  --brand-green-2:#245849;
+  --brand-green-soft:#E8F0EC;
+  --brand-turquoise:#2AA9A1;
+  --brand-turquoise-dark:#167873;
+  --brand-turquoise-soft:#DDF4F1;
+  --ink:#1F2C27;
+  --ink-soft:#59655F;
+
+  --color-bg:var(--brand-beige-soft)!important;
+  --color-bg-sand-light:var(--brand-beige)!important;
+  --color-sage:var(--brand-green)!important;
+  --color-sage-dark:#0F3029!important;
+  --color-terracotta:var(--brand-turquoise)!important;
+  --color-terracotta-soft:var(--brand-turquoise-soft)!important;
+  --accent:var(--brand-turquoise)!important;
+}
+
+body{
+  background:var(--brand-beige-soft)!important;
+  color:var(--ink)!important;
+}
+
+/* Header */
+.site-header{
+  background:rgba(251,248,243,.97)!important;
+  border-bottom:1px solid rgba(23,63,53,.09)!important;
+  box-shadow:0 8px 28px rgba(23,63,53,.035)!important;
+}
+.site-brand .brand-name{color:var(--ink)!important}
+.site-brand .brand-title{color:var(--brand-green-2)!important}
+.site-nav .nav-link{color:#48564F!important}
+.site-nav .nav-link:hover,
+.nav-link-program{color:var(--brand-turquoise-dark)!important}
+
+/* Botones */
+.btn-primary{
+  background:var(--brand-green)!important;
+  border-color:var(--brand-green)!important;
+  color:#fff!important;
+  box-shadow:0 10px 26px rgba(23,63,53,.16)!important;
+}
+.btn-primary:hover{
+  background:var(--brand-green-2)!important;
+  border-color:var(--brand-green-2)!important;
+}
+.btn-secondary{
+  background:#fff!important;
+  border-color:rgba(42,169,161,.22)!important;
+  color:var(--brand-green)!important;
+}
+.btn-secondary:hover{
+  background:var(--brand-turquoise-soft)!important;
+}
+
+/* Acentos */
+.section-tag{
+  background:var(--brand-turquoise-soft)!important;
+  color:var(--brand-turquoise-dark)!important;
+  border-color:rgba(42,169,161,.18)!important;
+}
+.hero-badge{
+  background:#fff!important;
+  color:var(--brand-green)!important;
+  border-color:rgba(23,63,53,.12)!important;
+}
+.hero-badge .icon,
+.hero-trust-icon,
+.specialty-pro-icon,
+.journey-icon,
+.psoriasis-principle-icon{
+  color:var(--brand-turquoise)!important;
+}
+.psoriasis-tag,
+.psoriasis-service-badge,
+.workshop-badge{
+  background:var(--brand-turquoise-soft)!important;
+  color:var(--brand-turquoise-dark)!important;
+}
+.specialty-pro-highlight,
+.psoriasis-service-card{
+  border-color:rgba(42,169,161,.22)!important;
+  background:linear-gradient(180deg,#fff,#F6FBFA)!important;
+}
+.specialty-pro-tags span,
+.specialty-pro-highlight .specialty-pro-tags span{
+  background:var(--brand-green-soft)!important;
+  color:var(--brand-green)!important;
+}
+
+/* Secciones */
+.audience-section,
+.psoriasis-section{
+  background:linear-gradient(180deg,#F5F1E9 0%,#FBF8F3 100%)!important;
+}
+.journey-section{
+  background:linear-gradient(180deg,#FBF8F3 0%,#F1F7F4 100%)!important;
+}
+.specialties-professional{
+  background:var(--brand-beige-soft)!important;
+}
+
+/* Tarjetas */
+.audience-card,
+.specialty-pro-card,
+.journey-card,
+.pricing-card,
+.contact-card,
+.article-card,
+.hero-profile-card,
+.psoriasis-area-card{
+  border-color:rgba(23,63,53,.11)!important;
+  box-shadow:0 14px 38px rgba(23,63,53,.045)!important;
+}
+.workshop-status,
+.specialties-professional-note,
+.psoriasis-service-focus{
+  background:#F4F7F3!important;
+  border-color:rgba(42,169,161,.13)!important;
+}
+
+/* Footer */
+.site-footer{
+  background:#173F35!important;
+}
+.site-footer a:hover{color:#7AD5D0!important}
+
+/* Emergencias: neutra y discreta */
+.emergency-topbar{
+  background:#F8F1E7!important;
+  border-color:rgba(23,63,53,.10)!important;
+}
+.emergency-pill{
+  background:#fff!important;
+  border-color:rgba(42,169,161,.20)!important;
+  color:var(--brand-green)!important;
+}
+
+/* Perfil profesional */
+.hero-profile-card{
+  background:rgba(255,255,255,.95)!important;
+}
+.profile-emphasis{
+  border-top-color:rgba(23,63,53,.12)!important;
+  color:var(--brand-green)!important;
+}
+.profile-credential{
+  background:#F2F6F3!important;
+  border-color:rgba(23,63,53,.10)!important;
+}
+
