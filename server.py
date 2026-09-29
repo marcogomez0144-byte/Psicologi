@@ -1,5 +1,5 @@
 """
-Servidor local ligero para previsualización de la web de psicología.
+Servidor local ligero para previsualización de la web de psicología.\nSolo escucha en 127.0.0.1 para no exponerse a otros equipos de la red.
 Ejecuta: python server.py
 Y abre en tu navegador http://localhost:8000
 """
@@ -26,7 +26,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
 
 def run_server():
     os.chdir(DIRECTORY)
-    with socketserver.TCPServer(("", PORT), Handler) as httpd:
+    with socketserver.TCPServer(("127.0.0.1", PORT), Handler) as httpd:
         print("=" * 65)
         print(f"  Consulta de Psicología - Servidor Local de Previsualización")
         print(f"  URL: http://localhost:{PORT}")

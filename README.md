@@ -1,62 +1,34 @@
-WEB DE PSICOLOGÍA + EDITOR DE CONTENIDOS
+WEB DE PSICOLOGÍA SANITARIA
 
-INSTALACIÓN EN TU GITHUB
-1. Descomprime el ZIP en tu ordenador.
-2. Abre el repositorio Psicologi, pestaña Code.
-3. Pulsa + / Add file > Upload files.
-4. Arrastra TODO EL CONTENIDO de esta carpeta (no la carpeta contenedora).
-   index.html, admin.html y content.js deben quedar en la raíz, junto a css, js, assets y legal.
-5. Confirma con Commit changes. No necesitas cambiar Settings > Pages.
-6. Espera a que termine el despliegue. Recarga con Ctrl + F5.
+PUBLICACIÓN
+La web pública se sirve con GitHub Pages. El repositorio no debe contener contraseñas,
+tokens, claves API, archivos .env ni información clínica de pacientes.
 
-TU WEB
-https://marcogomez0144-byte.github.io/Psicologi/index.html
+EDICIÓN
+- Los textos públicos se mantienen en content.js.
+- Las imágenes públicas deben estar en assets/ o embebidas en content.js.
+- No existe un panel de administración público.
+- Para editar con una herramienta visual, usa únicamente una copia local privada y no la
+  subas al repositorio.
 
-TU EDITOR (funcionará después de subir estos archivos)
-https://marcogomez0144-byte.github.io/Psicologi/admin.html
-
-CÓMO EDITAR
-- Tu consulta: nombre, ciudad, WhatsApp, correo, agenda externa, color y metadatos.
-- Textos y páginas: todos los textos, incluidos precios y páginas legales. Busca un texto
-  o elige una sección. Completa los campos entre corchetes con datos reales.
-- Fotografías: cambia la URL o sube JPG, PNG o WebP. Se optimizan a 1600 px como máximo.
-- Artículos: crea, edita, ordena, elimina y marca los artículos que quieres mostrar.
-- Enlaces: modifica destinos de enlaces. WhatsApp se configura en Tu consulta.
-- Guardar borrador: guarda solo en ESTE navegador. No publica.
-- Vista previa: abre el borrador sin cambiar lo que ven los visitantes.
-
-PUBLICAR CAMBIOS POSTERIORES
-1. Abre Publicar en el editor y pulsa Descargar content.js para publicar.
-2. Sube SOLO ese content.js a la raíz del repositorio, sustituyendo el anterior.
-3. Pulsa Commit changes. La publicación de GitHub actualizará la web.
-4. Conserva una copia JSON del editor como respaldo antes de cambiar de dispositivo.
-Si otra persona publica una nueva versión, descarga tu borrador antes de descartarlo;
-los borradores guardados no se fusionan automáticamente con cambios nuevos.
-
-QUÉ INCLUYE
-Ajustes visuales y de móvil, fotografías con carga diferida, mejoras de foco de teclado,
-recursos sin fuentes remotas, artículos editables, editor con búsqueda por página y sección,
-compresión de fotografías, vista previa y exportación. Se mantiene el estilo del proyecto.
+SEGURIDAD
+- El servidor de previsualización server.py solo escucha en 127.0.0.1.
+- La web aplica una Content Security Policy básica.
+- Los enlaces dinámicos web solo aceptan HTTPS.
+- Las imágenes dinámicas no cargan recursos remotos de terceros.
+- No introduzcas secretos ni datos de pacientes en GitHub.
 
 CITAS Y CONTACTO
-El calendario anterior era una demostración que no enviaba citas.
-Se ha sustituido por WhatsApp, correo o un enlace HTTPS a tu agenda real.
-No se inventan huecos disponibles ni se muestran confirmaciones ficticias.
-No hay cobros, gestión de pacientes ni base de datos en esta versión.
-
-ACCESO AL EDITOR
-Es una herramienta estática, no un panel privado con contraseña. Otros visitantes pueden
-abrirla y modificar una copia en su navegador; no pueden cambiar tu web pública sin acceso
-al repositorio. No introduzcas contraseñas, claves de API ni información de pacientes.
-El permiso para publicar sigue en tu cuenta de GitHub.
-
-ANTES DE COMPARTIR LA WEB
-Completa nombre, credenciales reales, ciudad, contacto, tarifas y textos legales.
-Las ilustraciones se conservan hasta que subas tus fotos. No se han inventado credenciales
-ni artículos clínicos. Los textos legales originales son plantillas pendientes de adaptar.
-La sección Artículos permanece oculta hasta que marques alguno como visible y publiques.
+Las reservas se derivan a los canales configurados en content.js (WhatsApp, correo y
+agenda externa HTTPS). La web no mantiene una base de datos de pacientes ni procesa pagos.
 
 PRUEBA LOCAL
-Ejecuta python server.py en la carpeta y abre http://localhost:8000/admin.html.
-Para evitar diferencias de almacenamiento entre archivos locales, usa servidor local
- o el sitio publicado en GitHub Pages.
+Ejecuta:
+  python server.py
+y abre:
+  http://localhost:8000/
+
+IMPORTANTE
+Los textos legales deben mantenerse actualizados con los datos reales de la profesional
+y con los servicios externos que se utilicen. No publiques NIF, domicilio u otros datos
+obligatorios hasta confirmar cuáles deben mostrarse legalmente y cuáles son los correctos.
