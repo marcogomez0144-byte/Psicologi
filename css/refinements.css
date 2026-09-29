@@ -1588,3 +1588,389 @@ body{background:var(--brand-beige-soft)!important;color:#1D2B27!important}
 .section-tag{background:var(--brand-turquoise-soft)!important;color:#146B66!important}
 .psoriasis-tag,.psoriasis-service-badge,.workshop-badge{background:var(--brand-turquoise-soft)!important;color:#146B66!important}
 .specialty-pro-highlight,.psoriasis-service-card{border-color:rgba(42,169,161,.25)!important;background:linear-gradient(180deg,#fff,#F7FCFB)!important}
+
+
+/* =========================================================
+   PALETA FINAL · ROSA PASTEL + FUCSIA + TURQUESA
+   ========================================================= */
+:root{
+  --pink-pastel:#FBE8F1;
+  --pink-soft:#FFF6FA;
+  --pink-mid:#F4C9DA;
+  --fuchsia:#C7357A;
+  --fuchsia-dark:#9E285F;
+  --turquoise:#2CA7A4;
+  --turquoise-dark:#197C79;
+  --turquoise-soft:#DDF4F2;
+  --ink:#2D2430;
+  --ink-soft:#655B63;
+
+  --color-bg:var(--pink-soft)!important;
+  --color-bg-sand-light:#FFF1F6!important;
+  --color-sage:var(--turquoise)!important;
+  --color-sage-dark:var(--turquoise-dark)!important;
+  --color-terracotta:var(--fuchsia)!important;
+  --color-terracotta-soft:var(--pink-pastel)!important;
+  --accent:var(--fuchsia)!important;
+}
+
+html{scroll-padding-top:105px}
+body{
+  background:var(--pink-soft)!important;
+  color:var(--ink)!important;
+}
+
+/* Cabecera */
+.site-header{
+  background:rgba(255,250,252,.96)!important;
+  border-bottom:1px solid rgba(199,53,122,.09)!important;
+  box-shadow:0 8px 28px rgba(89,41,67,.035)!important;
+}
+.site-brand .brand-name{color:var(--ink)!important}
+.site-brand .brand-title{color:var(--turquoise-dark)!important}
+.site-nav .nav-link{color:#51474F!important}
+.site-nav .nav-link:hover{color:var(--fuchsia)!important}
+.nav-link-program{color:var(--fuchsia)!important}
+
+/* Botones */
+.btn-primary{
+  background:var(--fuchsia)!important;
+  border-color:var(--fuchsia)!important;
+  color:#fff!important;
+  box-shadow:0 10px 26px rgba(199,53,122,.18)!important;
+}
+.btn-primary:hover{
+  background:var(--fuchsia-dark)!important;
+  border-color:var(--fuchsia-dark)!important;
+}
+.btn-secondary{
+  background:#fff!important;
+  border-color:rgba(44,167,164,.24)!important;
+  color:var(--turquoise-dark)!important;
+}
+.btn-secondary:hover{
+  background:var(--turquoise-soft)!important;
+}
+
+/* Pills y acentos */
+.section-tag{
+  background:var(--turquoise-soft)!important;
+  color:var(--turquoise-dark)!important;
+  border-color:rgba(44,167,164,.20)!important;
+}
+.hero-badge{
+  background:#fff!important;
+  color:var(--ink)!important;
+  border-color:rgba(199,53,122,.12)!important;
+}
+.hero-badge .icon,
+.hero-trust-icon,
+.specialty-pro-icon,
+.journey-icon,
+.psoriasis-principle-icon{
+  color:var(--turquoise)!important;
+}
+.psoriasis-tag,
+.psoriasis-service-badge,
+.workshop-badge{
+  background:var(--pink-pastel)!important;
+  color:var(--fuchsia-dark)!important;
+}
+.specialty-pro-highlight,
+.psoriasis-service-card{
+  border-color:rgba(199,53,122,.22)!important;
+  background:linear-gradient(180deg,#fff,#FFF7FB)!important;
+}
+.specialty-pro-highlight .specialty-pro-tags span{
+  background:var(--pink-pastel)!important;
+  color:var(--fuchsia-dark)!important;
+}
+.specialty-pro-tags span{
+  background:var(--turquoise-soft)!important;
+  color:var(--turquoise-dark)!important;
+}
+
+/* Fondos de secciones */
+.audience-section,
+.psoriasis-section{
+  background:linear-gradient(180deg,#FFF4F8 0%,#FFF9FC 100%)!important;
+}
+.journey-section{
+  background:linear-gradient(180deg,#FFF9FC 0%,#F7FBFB 100%)!important;
+}
+.specialties-professional{
+  background:#FFF9FC!important;
+}
+
+/* Tarjetas */
+.audience-card,
+.specialty-pro-card,
+.journey-card,
+.pricing-card,
+.contact-card,
+.article-card,
+.hero-profile-card,
+.psoriasis-area-card{
+  border-color:rgba(78,54,69,.10)!important;
+  box-shadow:0 14px 38px rgba(72,43,61,.045)!important;
+}
+.workshop-status,
+.specialties-professional-note,
+.psoriasis-service-focus{
+  background:#FFF0F6!important;
+  border-color:rgba(199,53,122,.13)!important;
+}
+
+/* Footer */
+.site-footer{
+  background:#352331!important;
+}
+.site-footer a:hover{color:#F2A7C6!important}
+
+/* Emergency bar: discreta y legible */
+.emergency-topbar{
+  background:#FFF5F8!important;
+  border-color:rgba(199,53,122,.15)!important;
+}
+.emergency-pill{
+  background:#fff!important;
+  border-color:rgba(199,53,122,.18)!important;
+  color:#7D3158!important;
+}
+
+/* =========================================================
+   OPTIMIZACIÓN DESKTOP
+   ========================================================= */
+.container{
+  width:min(1240px,calc(100% - 48px));
+}
+.hero-unified-container{
+  padding-top:0!important;
+}
+.hero-unified-grid{
+  grid-template-columns:minmax(0,1.12fr) minmax(380px,.88fr)!important;
+  gap:clamp(42px,6vw,86px)!important;
+  align-items:start!important;
+}
+.hero-unified-copy{
+  max-width:690px!important;
+}
+.hero-profile-column{
+  width:100%;
+  max-width:520px;
+  justify-self:end;
+}
+.hero-profile-photo{
+  width:100%;
+}
+.hero-profile-card{
+  width:min(94%,470px);
+  margin-left:auto;
+  margin-right:auto;
+}
+.hero-unified-copy .hero-title{
+  text-wrap:balance;
+}
+.section-header{
+  max-width:840px;
+  margin-inline:auto;
+}
+.pricing-card,
+.specialty-pro-card,
+.journey-card{
+  height:100%;
+}
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+@media(max-width:1100px){
+  .container{width:min(100% - 34px,960px)}
+  .hero-unified-grid{
+    grid-template-columns:1fr 1fr!important;
+    gap:30px!important;
+  }
+  .hero-unified-copy{transform:none!important}
+  .hero-unified-copy .hero-title{
+    font-size:clamp(3rem,6vw,4.5rem)!important;
+  }
+  .services-three-grid,
+  .psoriasis-areas{
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  }
+}
+
+/* =========================================================
+   MÓVIL
+   ========================================================= */
+@media(max-width:800px){
+  html{scroll-padding-top:74px}
+  .container{width:calc(100% - 28px)!important}
+  .site-header .header-container{
+    width:calc(100% - 24px)!important;
+    min-height:70px!important;
+  }
+  .site-brand .brand-name{font-size:1.2rem!important}
+  .site-brand .brand-title{display:none!important}
+  .header-actions .btn{
+    display:none!important;
+  }
+  .mobile-nav-toggle{
+    display:inline-flex!important;
+  }
+
+  .hero-section{
+    padding-top:28px!important;
+    padding-bottom:54px!important;
+  }
+  .hero-unified-grid{
+    display:flex!important;
+    flex-direction:column!important;
+    gap:28px!important;
+  }
+  .hero-unified-copy{
+    order:1;
+    width:100%;
+    max-width:none!important;
+    transform:none!important;
+  }
+  .hero-profile-column{
+    order:2;
+    width:100%;
+    max-width:none!important;
+    justify-self:auto;
+  }
+  .hero-badges-wrapper{
+    display:flex!important;
+    margin-bottom:18px!important;
+  }
+  .hero-unified-copy .hero-title{
+    font-size:clamp(2.65rem,12.5vw,4rem)!important;
+    line-height:.98!important;
+    letter-spacing:-.04em!important;
+  }
+  .hero-professional-intro{
+    margin-top:22px!important;
+  }
+  .hero-professional-copy{
+    font-size:.98rem!important;
+    line-height:1.68!important;
+  }
+  .hero-unified-ctas{
+    display:grid!important;
+    grid-template-columns:1fr!important;
+    gap:9px!important;
+    margin-top:22px!important;
+  }
+  .hero-unified-ctas .btn{
+    width:100%!important;
+    justify-content:center!important;
+  }
+  .hero-trust-row{
+    display:grid!important;
+    grid-template-columns:1fr!important;
+  }
+  .hero-profile-photo{
+    max-height:480px;
+    overflow:hidden;
+    border-radius:28px 28px 14px 14px!important;
+  }
+  .hero-profile-photo .hero-still{
+    height:min(480px,115vw)!important;
+    object-fit:cover!important;
+    object-position:center top!important;
+  }
+  .hero-profile-card{
+    width:calc(100% - 18px)!important;
+    margin:-42px auto 0!important;
+    position:relative!important;
+    z-index:2!important;
+    padding:22px!important;
+  }
+  .hero-profile-card h2{
+    font-size:1.8rem!important;
+  }
+
+  .specialties-professional-grid,
+  .audience-grid,
+  .journey-grid,
+  .services-three-grid,
+  .psoriasis-areas{
+    grid-template-columns:1fr!important;
+  }
+  .specialty-pro-card,
+  .audience-card,
+  .journey-card,
+  .pricing-card{
+    min-height:0!important;
+  }
+  .psoriasis-shell{
+    grid-template-columns:1fr!important;
+    gap:24px!important;
+  }
+  .psoriasis-intro h2{
+    font-size:2.45rem!important;
+  }
+  .psoriasis-actions{
+    display:grid!important;
+    grid-template-columns:1fr!important;
+  }
+  .psoriasis-actions .btn{
+    width:100%!important;
+    justify-content:center!important;
+  }
+  .journey-trust{
+    grid-template-columns:1fr!important;
+  }
+  .journey-trust-icon{display:none!important}
+
+  .section{
+    padding-top:54px!important;
+    padding-bottom:54px!important;
+  }
+  .section-header{
+    margin-bottom:28px!important;
+  }
+  .section-header h2{
+    font-size:clamp(2rem,9vw,3rem)!important;
+    line-height:1.02!important;
+  }
+
+  .footer-grid{
+    grid-template-columns:1fr!important;
+    gap:28px!important;
+  }
+  .mobile-sticky-bar{
+    display:flex!important;
+    left:12px!important;
+    right:12px!important;
+    bottom:12px!important;
+  }
+  body{
+    padding-bottom:78px;
+  }
+}
+
+/* Móviles pequeños */
+@media(max-width:430px){
+  .container{width:calc(100% - 22px)!important}
+  .hero-badges-wrapper{
+    gap:7px!important;
+  }
+  .hero-badge{
+    font-size:.78rem!important;
+    padding:7px 10px!important;
+  }
+  .hero-unified-copy .hero-title{
+    font-size:2.65rem!important;
+  }
+  .specialty-pro-card,
+  .audience-card,
+  .journey-card,
+  .pricing-card,
+  .psoriasis-principle{
+    padding:19px!important;
+    border-radius:17px!important;
+  }
+}
+
