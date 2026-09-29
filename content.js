@@ -8,7 +8,7 @@ window.SITE_CONTENT = {
     "phone": "34620214973",
     "email": "juliagilortega7@gmail.com",
     "bookingUrl": "https://calendar.app.google/bGnAK6NmvGXMCsKS7",
-    "accent": "#f7f6f1"
+    "accent": "#173F35"
   },
   "pages": {
     "index.html": {
@@ -30,7 +30,7 @@ window.SITE_CONTENT = {
           "group": "emergency-topbar"
         },
         "t24": {
-          "value": " Línea conducta suicida (Gratis 24h)\n        ",
+          "value": " Línea conducta suicida (Gratis 24h) ",
           "group": "emergency-topbar"
         },
         "t27": {
@@ -38,7 +38,7 @@ window.SITE_CONTENT = {
           "group": "emergency-topbar"
         },
         "t28": {
-          "value": " Teléfono de la Esperanza\n        ",
+          "value": " Teléfono de la Esperanza ",
           "group": "emergency-topbar"
         },
         "t31": {
@@ -46,7 +46,7 @@ window.SITE_CONTENT = {
           "group": "emergency-topbar"
         },
         "t32": {
-          "value": " Emergencias\n        ",
+          "value": " Emergencias ",
           "group": "emergency-topbar"
         },
         "t42": {
@@ -90,7 +90,7 @@ window.SITE_CONTENT = {
           "group": "site-header"
         },
         "t90": {
-          "value": "\n                Colegiada Nº ",
+          "value": "Colegiada Nº ",
           "group": "inicio"
         },
         "t91": {
@@ -106,7 +106,7 @@ window.SITE_CONTENT = {
           "group": "inicio"
         },
         "t97": {
-          "value": "Online              ",
+          "value": "Online ",
           "group": "inicio"
         },
         "t100": {
@@ -162,39 +162,39 @@ window.SITE_CONTENT = {
           "group": "General"
         },
         "t153": {
-          "value": "Punto de Partida",
+          "value": "Quizá te reconoces",
           "group": "reconocerte"
         },
         "t155": {
-          "value": "Quizá te reconoces en esto",
+          "value": "Hay momentos en los que no es fácil sostenerlo todo",
           "group": "reconocerte"
         },
         "t157": {
-          "value": "A veces no sabemos nombrar con exactitud lo que nos ocurre, pero sí sentimos que algo nos pesa o nos sobrepasa en el día a día.",
+          "value": "No necesitas encajar en una etiqueta para pedir ayuda. A veces basta con notar que algo te está desgastando, bloqueando o alejando de cómo quieres sentirte.",
           "group": "reconocerte"
         },
         "t167": {
-          "value": "Preocupación constante y sobrecarga mental",
+          "value": "Ansiedad, presión y autoexigencia",
           "group": "reconocerte"
         },
         "t169": {
-          "value": "Sientes que tu cabeza no descansa, anticipando problemas futuros o revisando mentalmente cada detalle. Una sensación continua de alerta interna y tensión en el cuerpo que dificulta desconectar y descansar.",
+          "value": "Cuando la cabeza no para, sientes que tienes que rendir siempre o un error pesa demasiado. Puede aparecer, por ejemplo, en deportistas ante la competición, una lesión o la vuelta al rendimiento, y en mujeres que viven con un nivel de exigencia constante.",
           "group": "reconocerte"
         },
         "t178": {
-          "value": "Dificultad para poner límites",
+          "value": "Autoestima, cuerpo y enfermedad crónica",
           "group": "reconocerte"
         },
         "t180": {
-          "value": "Tiendes a priorizar el bienestar de los demás por encima de tus propias necesidades. Decir no te genera culpa o miedo al conflicto, lo que poco a poco te lleva al agotamiento emocional y al resentimiento.",
+          "value": "Vivir con una enfermedad visible como la psoriasis puede influir en cómo te miras, te relacionas o afrontas los brotes y la exposición social. También podemos trabajar la inseguridad corporal, la vergüenza, la evitación y el impacto emocional que todo esto puede tener en tu día a día.",
           "group": "reconocerte"
         },
         "t189": {
-          "value": "Transición vital, pérdidas o cambios inesperados y tu propia identidad",
+          "value": "Cambios, límites e identidad",
           "group": "reconocerte"
         },
         "t191": {
-          "value": "Una ruptura sentimental, un cambio laboral, una pérdida significativa o simplemente la sensación de que la etapa vital en la que estabas ya no encaja contigo y necesitas redescubrir quién eres ahora.",
+          "value": "Hay etapas en las que cuesta saber qué necesitas o quién eres fuera de ciertos roles. Puede ocurrir tras una ruptura, un cambio vital, una lesión deportiva, dejar de competir o al adaptarte a una enfermedad crónica. Trabajamos para recuperar dirección y relacionarte contigo desde un lugar más amable.",
           "group": "reconocerte"
         },
         "t200": {
@@ -394,11 +394,11 @@ window.SITE_CONTENT = {
           "group": "sobre-mi"
         },
         "t403": {
-          "value": "Cercanía humana y rigor científico en cada sesión",
+          "value": "Psicología cercana, rigurosa y sin juicios",
           "group": "sobre-mi"
         },
         "t405": {
-          "value": "\n              Hola, soy ",
+          "value": "Creo en una psicología que no consiste únicamente en hablar de lo que ocurre, sino también en entenderlo, darle un sentido y encontrar nuevas formas de afrontarlo.",
           "group": "sobre-mi"
         },
         "t406": {
@@ -406,11 +406,11 @@ window.SITE_CONTENT = {
           "group": "sobre-mi"
         },
         "t407": {
-          "value": ". Concibo la psicoterapia no como un manual de instrucciones estándar, sino como una alianza de colaboración genuina, donde tú eres la persona experta en tu propia vida y yo pongo a tu servicio mis conocimientos clínicos.\n            ",
+          "value": "Mi forma de trabajar combina cercanía y rigor científico, adaptando el proceso a cada persona y a su momento vital.",
           "group": "sobre-mi"
         },
         "t409": {
-          "value": "\n              En la consulta no encontrarás miradas condescendientes ni juicios de valor. Mi compromiso es ofrecerte un espacio de serenidad, escucha activa y absoluta confidencialidad, donde puedas depositar lo que te preocupa con la certeza de sentirte escuchada y acompañada.\n            ",
+          "value": "En consulta encontrarás un espacio de escucha, seguridad y confidencialidad, donde no tienes que demostrar que estás bien ni tener todas las respuestas.",
           "group": "sobre-mi"
         },
         "t415": {
@@ -458,7 +458,7 @@ window.SITE_CONTENT = {
           "group": "sobre-mi"
         },
         "t442": {
-          "value": "\n              Creo firmemente que la terapia es un proceso vivo: no se trata de encajarte en una teoría, sino de adaptar la psicología a tu realidad y a lo que tú necesitas en este momento.\n            ",
+          "value": "No se trata de cambiar quién eres. Se trata de entenderte mejor y aprender a estar de otra manera contigo misma.",
           "group": "sobre-mi"
         },
         "t445": {
@@ -470,15 +470,15 @@ window.SITE_CONTENT = {
           "group": "General"
         },
         "t468": {
-          "value": "El Camino Terapéutico",
+          "value": "Cómo trabajamos",
           "group": "proceso"
         },
         "t470": {
-          "value": "Cómo trabajaremos",
+          "value": "Cómo trabajamos",
           "group": "proceso"
         },
         "t472": {
-          "value": "Un proceso estructurado, transparente y libre de incertidumbre para que sepas qué esperar en cada etapa.",
+          "value": "Un proceso adaptado a ti, con una dirección clara y herramientas que puedas llevar a tu día a día.",
           "group": "proceso"
         },
         "t479": {
@@ -506,11 +506,11 @@ window.SITE_CONTENT = {
           "group": "proceso"
         },
         "t493": {
-          "value": "Primera sesión de acogida",
+          "value": "Encontrar herramientas que te sirvan",
           "group": "proceso"
         },
         "t495": {
-          "value": "Nos conocemos con calma. Me cuentas qué te ha animado a consultar, exploramos qué estás experimentando y resolvemos todas tus dudas sobre la forma de trabajar.",
+          "value": "Trabajaremos con estrategias basadas en evidencia y adaptadas a tu situación, no con fórmulas universales.",
           "group": "proceso"
         },
         "t501": {
@@ -518,11 +518,11 @@ window.SITE_CONTENT = {
           "group": "proceso"
         },
         "t503": {
-          "value": "Acordamos objetivos y ritmo",
+          "value": "Llevar los cambios a tu día a día",
           "group": "proceso"
         },
         "t505": {
-          "value": "Definimos de mutuo acuerdo qué metas tienen sentido para ti. No hay un número prefijado de sesiones: ajustamos la frecuencia según tus avances y disponibilidad.",
+          "value": "El objetivo no es que la terapia se quede en la consulta, sino que puedas notar cambios en la forma en que afrontas tus situaciones cotidianas.",
           "group": "proceso"
         },
         "t511": {
@@ -530,15 +530,15 @@ window.SITE_CONTENT = {
           "group": "proceso"
         },
         "t513": {
-          "value": "Revisión y consolidación",
+          "value": "Avanzar a tu ritmo",
           "group": "proceso"
         },
         "t515": {
-          "value": "Hacemos paradas periódicas para evaluar cómo te sientes y consolidar los cambios. Conforme ganas autonomía, espaciamos las sesiones hacia el cierre del proceso.",
+          "value": "Cada proceso es diferente. Iremos revisando juntas lo que necesitas y cómo evoluciona el proceso.",
           "group": "proceso"
         },
         "t520": {
-          "value": "\n            Cada persona tiene sus propios tiempos. La terapia no es una carrera lineal; es un espacio seguro donde avanzar, detenerse a reflexionar y retomar con calma.\n          ",
+          "value": "Cada persona tiene sus propios tiempos. La terapia no es una carrera: es un espacio para avanzar con calma y a tu ritmo.",
           "group": "proceso"
         },
         "t530": {
@@ -594,15 +594,15 @@ window.SITE_CONTENT = {
           "group": "section"
         },
         "t568": {
-          "value": "\n              Libertad y confianza\n            ",
+          "value": "Lo importante es que te sientas cómoda con el proceso",
           "group": "section"
         },
         "t570": {
-          "value": "El primer encuentro sirve también para que tú valores si te sientes a gusto conmigo y si encajo con lo que estás buscando.",
+          "value": "La primera sesión también sirve para que tú valores si conectas conmigo y con mi forma de trabajar.",
           "group": "section"
         },
         "t572": {
-          "value": "La alianza terapéutica requiere conexión y sintonía humana. Tienes total libertad para decidir si deseas continuar o no tras este primer encuentro.",
+          "value": "Puedes decidir libremente si quieres continuar.",
           "group": "section"
         },
         "t583": {
@@ -750,7 +750,7 @@ window.SITE_CONTENT = {
           "group": "tarifas"
         },
         "t691": {
-          "value": "\n              Bizum profesional, transferencia bancaria o tarjeta tras cada sesión. Se emite factura oficial con validez fiscal y sanitaria.\n            ",
+          "value": "Bizum profesional, transferencia bancaria o tarjeta tras cada sesión. Se emite factura oficial con validez fiscal y sanitaria. ",
           "group": "tarifas"
         },
         "t695": {
@@ -758,7 +758,7 @@ window.SITE_CONTENT = {
           "group": "tarifas"
         },
         "t697": {
-          "value": "\n              Puedes cancelar o cambiar tu cita sin ningún coste avisando con al menos ",
+          "value": "Puedes cancelar o cambiar tu cita sin ningún coste avisando con al menos ",
           "group": "tarifas"
         },
         "t698": {
@@ -766,7 +766,7 @@ window.SITE_CONTENT = {
           "group": "tarifas"
         },
         "t699": {
-          "value": ", para que otra persona pueda ocupar ese hueco.\n            ",
+          "value": ", para que otra persona pueda ocupar ese hueco. ",
           "group": "tarifas"
         },
         "t710": {
@@ -926,7 +926,7 @@ window.SITE_CONTENT = {
           "group": "site-footer"
         },
         "t835": {
-          "value": "\n            Práctica profesional regida por el Código Deontológico del Consejo General de la Psicología de España.\n          ",
+          "value": "Práctica profesional regida por el Código Deontológico del Consejo General de la Psicología de España. ",
           "group": "site-footer"
         },
         "t839": {
@@ -1555,3 +1555,4 @@ window.SITE_CONTENT = {
   },
   "articles": []
 };
+
