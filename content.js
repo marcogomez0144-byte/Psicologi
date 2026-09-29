@@ -86,7 +86,7 @@ window.SITE_CONTENT = {
           "group": "site-header"
         },
         "t68": {
-          "value": "Pedir primera cita",
+          "value": "Primera cita gratuita",
           "group": "site-header"
         },
         "t90": {
@@ -142,7 +142,7 @@ window.SITE_CONTENT = {
           "group": "inicio"
         },
         "t116": {
-          "value": "Reservar una primera cita",
+          "value": "Primera cita gratuita",
           "group": "inicio"
         },
         "t120": {
@@ -1006,7 +1006,7 @@ window.SITE_CONTENT = {
           "group": "site-footer"
         },
         "t893": {
-          "value": "Pedir cita",
+          "value": "Primera cita gratuita",
           "group": "mobile-sticky-bar"
         },
         "t898": {
