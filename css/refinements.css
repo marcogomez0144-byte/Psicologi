@@ -1562,3 +1562,29 @@ h1,h2,h3,.brand-name,.hero-title,.hero-profile-card h2{
   .psoriasis-intro h2{font-size:2.55rem}
   .psoriasis-actions .btn{width:100%;justify-content:center}
 }
+
+
+/* PALETA BEIGE + VERDE OSCURO + TURQUESA */
+:root{
+  --brand-beige:#F4EFE7;
+  --brand-beige-soft:#FBF8F3;
+  --brand-green:#173F35;
+  --brand-green-2:#245849;
+  --brand-turquoise:#2AA9A1;
+  --brand-turquoise-soft:#DDF4F1;
+  --color-bg:var(--brand-beige-soft)!important;
+  --color-bg-sand-light:var(--brand-beige)!important;
+  --color-sage:var(--brand-green)!important;
+  --color-sage-dark:#0F3029!important;
+  --color-terracotta:var(--brand-turquoise)!important;
+  --color-terracotta-soft:var(--brand-turquoise-soft)!important;
+  --accent:var(--brand-turquoise)!important;
+}
+body{background:var(--brand-beige-soft)!important;color:#1D2B27!important}
+.site-header{background:rgba(251,248,243,.96)!important;border-bottom-color:rgba(23,63,53,.10)!important}
+.btn-primary{background:var(--brand-green)!important;border-color:var(--brand-green)!important;color:#fff!important;box-shadow:0 10px 24px rgba(23,63,53,.14)!important}
+.btn-primary:hover{background:var(--brand-green-2)!important;border-color:var(--brand-green-2)!important}
+.btn-secondary{border-color:rgba(23,63,53,.22)!important;color:var(--brand-green)!important}
+.section-tag{background:var(--brand-turquoise-soft)!important;color:#146B66!important}
+.psoriasis-tag,.psoriasis-service-badge,.workshop-badge{background:var(--brand-turquoise-soft)!important;color:#146B66!important}
+.specialty-pro-highlight,.psoriasis-service-card{border-color:rgba(42,169,161,.25)!important;background:linear-gradient(180deg,#fff,#F7FCFB)!important}
