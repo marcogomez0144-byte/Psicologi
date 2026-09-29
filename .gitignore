@@ -1,0 +1,25 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.*
+credentials.*
+*secret*
+*token*
+
+# Private/local editing tools
+admin-local.html
+content.local.js
+private/
+.local/
+
+# Python / OS / editor noise
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+*.log
