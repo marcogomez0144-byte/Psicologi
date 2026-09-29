@@ -1,8 +1,8 @@
 window.SITE_CONTENT = {
   "version": 1,
   "settings": {
-    "title": "Psicología | Un espacio para ti",
-    "description": "Un lugar seguro donde poder hablar sin juicios, comprenderte y aprender nuevas formas de afrontar lo que te pesa.\n\nPrimera cita gratuita.",
+    "title": "Julia Gil-Ortega | Psicóloga Sanitaria Online",
+    "description": "Psicología sanitaria online con un enfoque cercano y basado en evidencia. Primera cita gratuita.",
     "name": "Julia Gil-Ortega",
     "city": "Online",
     "phone": "34620214973",
@@ -54,7 +54,7 @@ window.SITE_CONTENT = {
           "group": "site-header"
         },
         "t44": {
-          "value": "Psicología Sanitaria - Online",
+          "value": "Psicología Sanitaria · Online",
           "group": "site-header"
         },
         "t50": {
@@ -486,11 +486,11 @@ window.SITE_CONTENT = {
           "group": "proceso"
         },
         "t481": {
-          "value": "Eliges una cita o pides información",
+          "value": "Primer contacto",
           "group": "proceso"
         },
         "t483": {
-          "value": "",
+          "value": "Puedes reservar una primera cita gratuita o escribir para resolver una duda. No necesitas saber exactamente qué decir ni tener claro por dónde empezar.",
           "group": "proceso"
         },
         "t484": {
@@ -902,27 +902,27 @@ window.SITE_CONTENT = {
           "group": "reservar"
         },
         "t827": {
-          "value": "[NOMBRE]",
+          "value": "Julia Gil-Ortega",
           "group": "site-footer"
         },
         "t829": {
-          "value": "\n            Psicóloga General Sanitaria · Colegiada Nº ",
+          "value": "Psicóloga General Sanitaria · Colegiada Nº ",
           "group": "site-footer"
         },
         "t830": {
-          "value": "[Nº COLEGIADA]",
+          "value": "M-44459",
           "group": "site-footer"
         },
         "t831": {
-          "value": "\n            Consulta Presencial en ",
+          "value": "",
           "group": "site-footer"
         },
         "t832": {
-          "value": "[CIUDAD]",
+          "value": "",
           "group": "site-footer"
         },
         "t833": {
-          "value": " y Videoconsulta Online\n          ",
+          "value": " · Consulta online",
           "group": "site-footer"
         },
         "t835": {
@@ -954,19 +954,19 @@ window.SITE_CONTENT = {
           "group": "site-footer"
         },
         "t852": {
-          "value": "Reservar primera cita",
+          "value": "Primera cita gratuita",
           "group": "site-footer"
         },
         "t857": {
-          "value": "Contacto y Localización",
+          "value": "Contacto",
           "group": "site-footer"
         },
         "t860": {
-          "value": "📍 ",
+          "value": "💻 ",
           "group": "site-footer"
         },
         "t861": {
-          "value": "[DIRECCIÓN DE LA CONSULTA, CIUDAD]",
+          "value": "Consulta online",
           "group": "site-footer"
         },
         "t863": {
@@ -974,7 +974,7 @@ window.SITE_CONTENT = {
           "group": "site-footer"
         },
         "t864": {
-          "value": "[contacto@tudominio.com]",
+          "value": "juliagilortega7@gmail.com",
           "group": "site-footer"
         },
         "t866": {
@@ -982,15 +982,15 @@ window.SITE_CONTENT = {
           "group": "site-footer"
         },
         "t867": {
-          "value": "[+34 XXX XX XX XX]",
+          "value": "+34 620 214 973",
           "group": "site-footer"
         },
         "t869": {
-          "value": "\n              Horario habitual: Lunes a Viernes de 09:30 a 20:00 (Con cita previa).\n            ",
+          "value": "Atención con cita previa.",
           "group": "site-footer"
         },
         "t875": {
-          "value": "\n          © 2026 [NOMBRE] · Psicología Sanitaria. Todos los derechos reservados.\n        ",
+          "value": "© 2026 Julia Gil-Ortega · Psicología Sanitaria. Todos los derechos reservados.",
           "group": "site-footer"
         },
         "t878": {
