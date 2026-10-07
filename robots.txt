@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://xn--juliagilpsicologa-svb.es/sitemap.xml
-Sitemap: https://xn--juliagilpsicologa-svb.es/sitemap.txt
